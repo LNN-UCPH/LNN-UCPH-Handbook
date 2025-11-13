@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "LNN-UCPH Handbook",
     "section": "",
-    "text": "Welcome to the handbook for LNN @ UCPH!\nClick here to return to our lab website",
+    "text": "Welcome to the handbook for LNN @ UCPH!",
+    "crumbs": [
+      "Welcome to the handbook for LNN @ UCPH!"
+    ]
+  },
+  {
+    "objectID": "index.html#click-here-to-return-to-our-lab-website",
+    "href": "index.html#click-here-to-return-to-our-lab-website",
+    "title": "LNN-UCPH Handbook",
+    "section": "Click here to return to our lab website",
+    "text": "Click here to return to our lab website",
     "crumbs": [
       "Welcome to the handbook for LNN @ UCPH!"
     ]
