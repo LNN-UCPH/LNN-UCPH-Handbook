@@ -6,7 +6,7 @@
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
 |[OHBM](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=1)  | Dec   | June  | -     |          |
-| [ISMRM](https://www.ismrm.org/)           | Oct          |May            |          |          |
+| [ISMRM](https://www.ismrm.org/)           | Oct          |May            | -         |          |
 |[FITNG](https://fitng.org/)            |   Feb/Mar        | Varied           |          |          |
 
 
