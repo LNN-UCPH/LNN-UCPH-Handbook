@@ -1,6 +1,35 @@
 # Publishing
 
-## Overview of relevant LNN Conferences:
+## Where to Submit
+You have completed world changing research and are now looking for a place to publish your work, congratulations!
+There are several guides online about how to determine where to submit your work for publishing.
+First, you should choose whether to submit your work to a conference (preferrably an indexed one) or a journal.
+In order to determine this, you should consider:
+1. the type of research you completed (e.x., review paper, short abstract, new methodology, full research paper)
+2. what you aim to get out of publishing the work (e.x., some peer review, indexing for citations and h-index, attending a conference for networking)
+3. your timeline (e.x., you're graduating soon and losing data access)
+
+## Explore the Differences Between Journal and Conference Submissions
+This was adapted from [Pub Scholars](https://pubscholars.org/conference/conference-papers-vs-journal-paper-major-difference/).
+| Aspect | Journal Paper | Conference Paper |
+|--------|---------------|------------------|
+| Impact |  Citations/H-index, grant submissions, career development   | Feedback, networking, visibility |
+| Content |  Works in progress and recent findings  | Full research project with storyline and in-depth results |
+| Length |  Abstracts, Short/Long Papers |  Full papers  |
+| Peer Review Duration |  1 - 3 months  | 6 months - over 1 year |
+| Peer Review | Basic, 1-2 reviewers  |  Rigorous, 2-4 reviewers  |
+
+## How to Choose a Journal
+Choosing a journal for submission can be daunting.
+The first step would be to explore the papers that you cite the most and the papers that are most alike your own work -- which journals are they published in?
+These journals likely have a scope that includes your own work.
+The second step is to discuss the impact factor of these journals, and your publication goals. The higher the impact factor, the more rigorous the reviews, and the lower the odds of being accepted.
+There are several tools online to use, and don't be afraid to lean on your mentors for suggestions.
+
+## Overview of Relevant LNN Conferences
+Choosing a conference can be exciting, as it's an opportunity to travel, network, and engage in leanring about science within your discipline.
+There are lots of different conference types, and it makes sense to choose a conference that aligns best with your research topic.
+Consider whether it's important to submit work to a conference that is indexed, and whether there are workshops associated with the conference that are also indexed.
 
 ### Neuroimaging
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
