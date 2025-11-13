@@ -1,0 +1,182 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GROUP_NAME Handbook",
+    "section": "",
+    "text": "Welcome!\nWelcome to the GROUP_NAME. In this lab, we study …",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "index.html#lab-philosophy",
+    "href": "index.html#lab-philosophy",
+    "title": "GROUP_NAME Handbook",
+    "section": "Lab Philosophy",
+    "text": "Lab Philosophy\n\n\n\n\n\n\nImportantEdit This Section\n\n\n\nThis is a good place to put any information about overall lab philosophies. For example, thoughts about open science, collaboration, publishing, and the role of science in the world",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "index.html#mentoring-philosophy",
+    "href": "index.html#mentoring-philosophy",
+    "title": "GROUP_NAME Handbook",
+    "section": "Mentoring Philosophy",
+    "text": "Mentoring Philosophy\n\n\n\n\n\n\nImportantEdit This Section\n\n\n\nThis may also be a good place to outline your mentoring philosophy as a PI. If this gets too long, it could instead go in a section along with mentee expectations",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Editing This Book",
+    "section": "",
+    "text": "Suggesting a change\nPrerequisites:\nTo suggest a change, click the “Report an issue” link on any page or go to the GitHub repository and open an issue.",
+    "crumbs": [
+      "Editing This Book"
+    ]
+  },
+  {
+    "objectID": "contributing.html#footnotes",
+    "href": "contributing.html#footnotes",
+    "title": "Editing This Book",
+    "section": "",
+    "text": "If you haven’t set up git and GitHub on your computer, you’ll get an (hopefully informative) error. usethis::git_sitrep() can help you troubleshoot and we also recommend reading/searching happygitwithr.com. You only need to run this the first time you contribute to the book. For subsequent contributions, just open the RStudio project and start with step 2.↩︎",
+    "crumbs": [
+      "Editing This Book"
+    ]
+  },
+  {
+    "objectID": "code-of-conduct.html",
+    "href": "code-of-conduct.html",
+    "title": "1  GROUP_NAME Code of Conduct",
+    "section": "",
+    "text": "University of Arizona Policies\nScience is hard, and the work of making sure science isn’t harder than it needs to be is on all of us. We create our culture, and in the GROUP_NAME, our culture is inclusive.\nWe value the participation of every member of our community and want to ensure an that every lab member and collaborator has a positive, educational experience unhindered by unnecessary challenges caused by non-inclusive behavior. Accordingly, everyone who participates in any GROUP_NAME project is expected to show respect and courtesy to other community members at all times.\nPI_NAME as head of the GROUP_NAME, and all lab members, are dedicated to a harassment and discrimination-free experience for everyone. Discrimination or harassment based on racial or ethnic background, citizenship status, religion (or lack thereof), political affiliation, gender identity/expression, sexual orientation, dis/ability status, appearance or body size will not be tolerated. We do not tolerate harassment or discrimination by and/or of members of our community in any form.\nWe are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.\nTo make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.\nUnacceptable behavior includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of discussions, inappropriate physical contact, and unwelcome sexual attention.\nParticipants asked to stop any harassing or discriminatory behavior are expected to comply immediately.\nMembers of the community who violate these rules—no matter how much they have contributed to the GROUP_NAME, or how specialized their skill set—will be approached by PI_NAME. If inappropriate behavior persists after a discussion with PI_NAME, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona’s Office of Institutional Equity\nTo report an issue please contact PI_NAME. All communication will be treated as confidential. If you feel you cannot contact PI_NAME, contact the Office of Institutional Equity\nAdditionally, The University of Arizona has specific policies related to conduct. See the UA Nondiscrimination and anti-harassment policy.\nAll employees students, and designated campus colleagues are required to take the Preventing Harassment and Discrimination training and follow review, understand, and follow:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Code of Conduct</span>"
+    ]
+  },
+  {
+    "objectID": "code-of-conduct.html#university-of-arizona-policies",
+    "href": "code-of-conduct.html#university-of-arizona-policies",
+    "title": "1  GROUP_NAME Code of Conduct",
+    "section": "",
+    "text": "The University of Arizona ethics and conduct guidelines: policy.arizona.edu/ethics-and-conduct\nThe University of Arizona Nondiscrimination and anti-harassment policy: equity.arizona.edu/title-ix\n\n\nThe material in this code of conduct is derived from “Bahlai Lab Code of Conduct” by Dr. Christie Bahlai, used under CC BY 4.0.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Code of Conduct</span>"
+    ]
+  },
+  {
+    "objectID": "group-expectations.html",
+    "href": "group-expectations.html",
+    "title": "2  Group Expectations",
+    "section": "",
+    "text": "Mentee expectations\nBeyond abiding by the code of conduct, we expect all group members to …",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Group Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "group-expectations.html#mentee-expectations",
+    "href": "group-expectations.html#mentee-expectations",
+    "title": "2  Group Expectations",
+    "section": "",
+    "text": "ImportantGroup Edit\n\n\n\nSome discussion topics to get you started:\n\nWhen should mentees ask questions? Who should they ask first?\nIs it the mentee’s responsibility to schedule regular meetings with mentors? If so, how often should these be?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Group Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "group-expectations.html#mentorpi-expectations",
+    "href": "group-expectations.html#mentorpi-expectations",
+    "title": "2  Group Expectations",
+    "section": "Mentor/PI expectations",
+    "text": "Mentor/PI expectations\n\n\n\n\n\n\nImportantGroup Edit\n\n\n\nSome discussion topics to get you started:\n\nHow often and in what way are mentors expected to check in with mentees?\nIs it the mentor’s responsibility to schedule regular meetings with mentees?\nHow available are mentors expected to be and in what format (email, face-to-face, zoom, slack, etc.)?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Group Expectations</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html",
+    "href": "onboarding.html",
+    "title": "3  Onboarding",
+    "section": "",
+    "text": "First day",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#first-day",
+    "href": "onboarding.html#first-day",
+    "title": "3  Onboarding",
+    "section": "",
+    "text": "Find your desk\nMeet your PI\netc…",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#first-week",
+    "href": "onboarding.html#first-week",
+    "title": "3  Onboarding",
+    "section": "First week",
+    "text": "First week\n\nSet up regular meetings\nStake out lab space\netc…",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "onboarding.html#first-semester",
+    "href": "onboarding.html#first-semester",
+    "title": "3  Onboarding",
+    "section": "First semester",
+    "text": "First semester\n\nHave a plan\nPresent at group meeting\netc…",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Onboarding</span>"
+    ]
+  },
+  {
+    "objectID": "offboarding.html",
+    "href": "offboarding.html",
+    "title": "4  Offboarding",
+    "section": "",
+    "text": "ImportantGroup Edit\n\n\n\nThis may be difficult to finalize until someone goes through the offboarding process and takes thorough notes (ideally by editing this page). Here are some discussion topics to get you started though:\n\nWhat are the group expectations for what to do with unpublished data collected during your time in the lab when you leave?\nWhat about code used to analyze data? Where should it be stored and what are the expectations around reproducibility/usability of such code?\nWhat kinds of keys (physical or otherwise) or passwords might someone need to pass on?\nWhat kinds of shared drives does the lab group use? Do you need to explicitly transfer ownership of documents on any of them?\nAre there official university or department offboarding steps to take? E.g. something mandated by HR or the graduate school like an exit interview?\nWhat is the timeline for all of this? Don’t wait until the last week of work to complete all these tasks!\nWhy is offboarding important to this group? To get feedback on mentoring? To make sure there is continuity of projects?\n\n\n\nOffboarding is important to our group because …\nSteps to take:\n\nMake sure all of your code is in repositories in the group’s GitHub organization\nMake sure each project has a README file explaining what it is, how to reproduce results, and includes metadata for any data collected (e.g. what do column names mean and what units are they in?)\nSchedule an exit interview\nMore steps…",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Offboarding</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html",
+    "href": "research-best-practices.html",
+    "title": "5  Research Best Practices",
+    "section": "",
+    "text": "Research Compendia\nA research compendium is a collection of all the files (data, metadata, notes, code, manuscripts, etc.) associated with a research project. Even before the first data point is collected, some thought should be put into how you’ll organize your research compendium. This includes things like:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "research-best-practices.html#research-compendia",
+    "href": "research-best-practices.html#research-compendia",
+    "title": "5  Research Best Practices",
+    "section": "",
+    "text": "Directory structure\nFile naming conventions\nFile formats to use\nWhere the research compendium will be stored (shared drive? Box? your laptop?)\n\n\nDirectory Structure\nA minimal research compendium might look like this:\nproject_name/\n  ├── README.md\n  ├── data/\n  │   ├── metadata.txt\n  │   └── my_raw_data.csv\n  ├── scripts/\n  │   ├── 01-wrangle_data.R\n  │   ├── 02-fit_models.R\n  │   └── 03-plot_results.R\n  └── output/\nThe README.md file should contain at minimum 1) a brief description of the project, 2) who is involved, and 3) instructions on how to reproduce the analysis (e.g. what software is needed to run it, any manual steps that aren’t done by code, etc.). Once the project is complete (e.g. a paper is in review) it should also contain links or citation information for any products resulting from the project.\nThe data/ folder should contain the raw data for the project. This raw data should not be edited by hand. Files in the data/ folder should be considered (or actually made) read-only! This folder might contain separate data_raw/ and data_cleaned/ folders if there is a need to save intermediate data to disk, in which case the files in data_raw/ should be read-only. The data/ folder is also a good place for metadata—information about how to interpret the data and how/when/where it was collected (e.g. what the column names in my_raw_data.csv mean and what units the values are measured in).\n\n\n\n\n\n\nImportantGroup Edit\n\n\n\nYou may wish to discuss as a group what constitutes “raw data”. For example, if you are entering data manually into Excel, at what point should that file be considered “finished” and treated as read-only?\n\n\nThe scripts/ folder is a place to put code to run your analysis. For R code, this folder is often called R/ by convention, and for other languages it might be called something like src/. In this example, I’ve used numbered file names to indicate the order in which scripts are to be run to reproduce the results.\nThe output/ folder is where any figures or summary data or tables created should be saved.\nOther things a research compendium might contain, especially if it is made public (e.g. published as supplementary)\n\nA code of conduct\nA license file and/or citation file indicating how others can use your work\nA docs/ folder for notes or manuscripts\nA .bib file containing reference information for a manuscript\n\n\n\nFile naming conventions\nAs above, numbering scripts that should be run in order is always a good idea—make all the numbers the same number of digits (e.g. 09-, 10-, 11-) so they sort alphabetically in the right order.\nWhen dates are relevant in file names, put them at the start and use the ISO format (YYYY-MM-DD) so that when sorted alphabetically they are in chronological order.\nAvoid spaces and special characters that may not work on all operating systems. Similarly, file names are case sensitive on some systems and case-insensitive on others, so avoid capital letters in file names to keep things simple.\n\n\nFile formats\nPreference non-proprietary and plain-text formats when possible. E.g. use .csv rather than .xlsx when there isn’t a need for multiple sheets or other Excel features.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Research Best Practices</span>"
+    ]
+  },
+  {
+    "objectID": "authorship.html",
+    "href": "authorship.html",
+    "title": "6  Authorship",
+    "section": "",
+    "text": "ImportantGroup Edit\n\n\n\nHave a conversation with your group about guidelines and expectations around authorship and replace the text here. Some ideas of things to discuss:\n\nWhen/how often should conversations about authorship happen?\nRead and discuss the CRediT and MeRIT frameworks.\nWhat potential conflicts are there regarding authorship and how will we manage them? (e.g. requirements of publishers vs. collaborator expectations)\nUnder what circumstances, if any, should authors be removed from a project?\nAre there any circumstances where PI_NAME wouldn’t be an author on a student/mentee paper?",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Authorship</span>"
+    ]
+  }
+]
