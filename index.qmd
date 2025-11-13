@@ -1,16 +1,16 @@
 <!-- NOTE: do not re-name this file!  It has to be called index.qmd -->
 
 # Welcome to the handbook for LNN @ UCPH! {.unnumbered}
+
 [Click here to return to our lab website](https://lnn-ucph.github.io/)
+
+## How to use the handbook
+This is a guide for prospective, new, and current members of LNN-UCPH. 
+The handbook provides an overview of our lab philosophy and practical information on how to get started on a research project.
+Whether you're a new member of the lab looking for onboarding help, an existing member who is curious about obtaining your own funding, or a prospective student wondering about our lab culture, this is the place for you!
+If you have a suggestion or comment on the handbook, please reach out to Melanie or Martin.
 
 ::: callout-note
 Note to lab members: this document is a work in progress and may change.
 It is your responsibility to be familiar with the content, so you should review these policies regularly.
 :::
-
-## Our Research
-We focuse on leveraging advanced imaging technologies and computational methods to study the human brain. 
-We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. 
-Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. 
-Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.
-
