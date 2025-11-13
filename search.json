@@ -110,31 +110,11 @@
     ]
   },
   {
-    "objectID": "onboarding.html#research-tools",
-    "href": "onboarding.html#research-tools",
+    "objectID": "onboarding.html#lnnucph-lab-resources",
+    "href": "onboarding.html#lnnucph-lab-resources",
     "title": "2  Onboarding",
-    "section": "Research tools",
-    "text": "Research tools\n\nZotero\nFor literature storage we utilise the open source tool Zotero. Please upload the most important papers for your project to a private Zotero group (https://www.zotero.org/) and add the relevant people to it. Remember to call the Zotero group something specific to your project.\n\n\nOverleaf\nFor writing papers we use Overleaf. You can get access to Overleaf Premium with your KU e-mail. So make an Overleaf account or use your KU account and make a project and invite the relevant people. For thesis works you can use this template https://www.overleaf.com/edu/ucph",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
-    ]
-  },
-  {
-    "objectID": "onboarding.html#diku-resources",
-    "href": "onboarding.html#diku-resources",
-    "title": "2  Onboarding",
-    "section": "DIKU resources",
-    "text": "DIKU resources\n\nGeneral information\n\nDIKU webpage - di.ku.dk\nIMAGE Github - github.com/diku-dk/IMAGE\n\n\n\nCommunication channels\n\nIMAGE Section Slack - image-ucph.slack.com\nKU mail - webmail.ku.dk\nIMAGE Trello - Papers\nIMAGE Trello - Funding\n\n\n\nAdministrative resources\n\nDIKU internal webpage",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
-    ]
-  },
-  {
-    "objectID": "onboarding.html#nru-resources",
-    "href": "onboarding.html#nru-resources",
-    "title": "2  Onboarding",
-    "section": "NRU resources",
-    "text": "NRU resources\n\nGeneral information\n\nNRU webpage - nru.dk\n\n\n\nCommunication channels\n\nNRU calendar and email - cal.nru.dk\nNRU Discord (Ask for invitation)\n\n\n\nAdministrative resources\n\nNRU staff manual\nNRU wiki - wiki.nru.dk",
+    "section": "LNN@UCPH Lab Resources",
+    "text": "LNN@UCPH Lab Resources\n\nResearch tools\n\nZotero\nFor literature storage we utilise the open source tool Zotero. Please upload the most important papers for your project to a private Zotero group (https://www.zotero.org/) and add the relevant people to it. Remember to call the Zotero group something specific to your project.\n\n\nOverleaf\nFor writing papers we use Overleaf. You can get access to Overleaf Premium with your KU e-mail. So make an Overleaf account or use your KU account and make a project and invite the relevant people. For thesis works you can use this template https://www.overleaf.com/edu/ucph\n\n\n\nDIKU resources\nGeneral information - DIKU webpage - di.ku.dk - IMAGE Github - github.com/diku-dk/IMAGE\nCommunication channels - IMAGE Section Slack - image-ucph.slack.com - KU mail - webmail.ku.dk - IMAGE Trello - Papers - IMAGE Trello - Funding\nAdministrative resources - DIKU internal webpage\n\n\nNRU resources\nGeneral information - NRU webpage - nru.dk\nCommunication channels - NRU calendar and email - cal.nru.dk - NRU Discord (Ask for invitation)\nAdministrative resources - NRU staff manual - NRU wiki - wiki.nru.dk",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
     ]
