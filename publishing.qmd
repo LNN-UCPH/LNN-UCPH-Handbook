@@ -5,57 +5,60 @@
 ### Neuroimaging
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|[MICCAI](https://miccai.org/index.php/events/upcoming-conferences/)      | Feb/March | Sep/Oct    |   x   |  <ul><li>list item 1</li><li>list item 2</li></ul>  |
-|[ISBI](https://biomedicalimaging.org/)  |  Oct/Nov |  May  |  X        |          |
-|[IPMI](https://ipmi2025.org/) | Dec - every 2nd year | May|X |          |
-|[MIDL](https://2026.midl.io/) | Dec/Jan | July |X | |
+|[OHBM](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=1)  | Dec   | June  |      |          |
+| [ISMRM](https://www.ismrm.org/)           | Oct          |May            |         |          |
+|[FITNG](https://fitng.org/)            |   Feb/Mar        | Varied           |          |          |
+
 
 ### Computational Medical Imaging
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[MICCAI](https://miccai.org/index.php/events/upcoming-conferences/)      | Feb/March | Sep/Oct    |   X   |  <ul><li>list item 1</li><li>list item 2</li></ul>  |
+|[ISBI](https://biomedicalimaging.org/)  |  Oct/Nov |  May  |  X        |          |
+|[IPMI](https://ipmi2025.org/) | Dec  | May|X |  Every second year       |
+|[MIDL](https://2026.midl.io/) | Dec/Jan | July |X | |
+
 
 ### Computer Vision
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[CVPR](https://cvpr.thecvf.com/) | Nov           | June           |   X       |          |
+|[ICCV](https://iccv.thecvf.com/)/[ECCV](https://eccv.ecva.net/) | March  | Oct | X |Alternates each year||
+| [WACV](https://wacv.thecvf.com/)  | Round 1: July, Round 2: Sep |  March  | X |         |
 
 ### Machine learning
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[NeurIPS](https://neurips.cc/)/EurIPS |   May   |    Dec    |    X    |  Indexed workshops   |
+|[ICML](https://icml.cc/) |    Sep    |    April     |   X     |          |
+|[ICLR](https://iclr.cc/) | Sep       |     April    |   X       |          |
+|[AAAI](https://aaai.org/conference/aaai/) |   August     |    Feb/March      |   X    |          |
 
 ### Health Informatics
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[MIE](https://efmi.org/conferences-journals/mie-confererence/) | Oct/Nov | May/June  | X  |          |
+| [AMIA](https://amia.org/education-events) | March | Nov  |   X  |          |
+| [CHIL](https://chil.ahli.cc/)| Feb  | June  |          |          |
 
-### Fairness
+### Fairness/Human Computer Interaction
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+| [FACCT](https://facctconference.org/) | Jan |  June |  X   |          |
+| CHI |  Sept | April/May | X  |          |
+| EWAF |  March   |  June/July  |          |          |
 
 ### NLP
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
-
+| EMNLP |  May  | Nov/Dec |   X   |          |
+|  ACL |    Feb  |   July/August  |  X |          |
+|  [EACL](https://eacl.org/conferences/) |  Oct  |   March  |  X  |          |
+|  [COLM](https://colmweb.org/) |  March   |   October  |          |          |
 
 ### Misc.
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|    Let us know if you have one to add!        |           |            |          |          |
+|      TBA      |           |            |          |          |
+|        TBA    |           |            |          |          |
