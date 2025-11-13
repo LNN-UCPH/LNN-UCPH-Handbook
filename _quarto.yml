@@ -32,6 +32,7 @@ book:
     - computational_resources.qmd
     - publishing.qmd
     - funding_resources.qmd
+    - code.qmd
 
 bibliography: references.bib
 
