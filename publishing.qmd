@@ -25,40 +25,41 @@
 |[CVPR](https://cvpr.thecvf.com/) | Nov           | June           |   X       |          |
 |[ICCV](https://iccv.thecvf.com/)/[ECCV](https://eccv.ecva.net/) | March  | Oct | X |Alternates each year||
 | [WACV](https://wacv.thecvf.com/)  | Round 1: July, Round 2: Sep |  March  | X |         |
-|[ICLR](https://iclr.cc/)  | Sep       |     Apr    |   X       |          |
+|[ICLR](https://iclr.cc/)  | Sep       |     April    |   X       |          |
 
 ### Machine learning
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[NeurIPS](https://neurips.cc/)/EurIPS |   May   |    Dec    |    X    |  Indexed workshops   |
+|[ICML](https://icml.cc/) |    Sep    |    April     |   X     |          |
+|[ICLR](https://iclr.cc/) | Sep       |     April    |   X       |          |
+|[AAAI](https://aaai.org/conference/aaai/) |   August     |    Feb/March      |   X    |          |
 
 ### Health Informatics
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[MIE](https://efmi.org/conferences-journals/mie-confererence/) | Oct/Nov | May/June  | X  |          |
+| [AMIA](https://amia.org/education-events) | March | Nov  |   X  |          |
+| [CHIL](https://chil.ahli.cc/)| Feb  | June  |          |          |
 
-### Fairness
+### Fairness/Human Computer Interaction
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+| [FACCT](https://facctconference.org/) | Jan |  June |  X   |          |
+| CHI |  Sept | April/May | X  |          |
+| EWAF |  March   |  June/July  |          |          |
 
 ### NLP
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
-
+| EMNLP |  May  | Nov/Dec |   X   |          |
+|  ACL |    Feb  |   July/August  |  X |          |
+|  [EACL](https://eacl.org/conferences/) |  Oct  |   March  |  X  |          |
+|  [COLM](https://colmweb.org/) |  March   |   October  |          |          |
 
 ### Misc.
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|    Let us know if you have one to add!        |           |            |          |          |
+|      TBA      |           |            |          |          |
+|        TBA    |           |            |          |          |
