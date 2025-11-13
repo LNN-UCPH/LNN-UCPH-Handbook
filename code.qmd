@@ -4,6 +4,7 @@ editor: visual
 ---
 Here are some links to resources on good coding practices and project setup.
 
+## Resources
 - [Better Code Better Science]( https://poldrack.github.io/BetterCodeBetterScience/frontmatter.html) - Full guide on project setup, good coding practices, software testing
 - [The Good Research Code Handbook](https://goodresearch.dev/_static/book.pdf) - This handbook is for grad students, postdocs and PIs who do a lot of programming as part of their research.
 - Use [git](https://git-scm.com/) and [Github](https://github.com/) for version control
@@ -14,4 +15,83 @@ Here are some links to resources on good coding practices and project setup.
 - Use [uv](https://docs.astral.sh/uv/) for management of python versions, virtual environments, python projects, and packages  
 - Use [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) to setup projects based on a template. 
 - Great books: Clean Code (Robert C. Martin), Naming Things (Tom Benner), Design Patterns. Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
+
+## Guide for project setup:
+In general, it is recommendet to read through the [Essential Tools and Techniques](https://poldrack.github.io/BetterCodeBetterScience/essential_tools_and_techniques.html) for an extensive guide on tools to use, and [Project Setup](https://poldrack.github.io/BetterCodeBetterScience/project_organization.html) for a more elaborate guide on how to set up projects. Following, you can find a brief guide on how to setup a python project using uv and cookiecutter.
+
+### Step 1: Install basic tools
+1. install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for version control.
+2. install [uv](https://docs.astral.sh/uv/getting-started/installation/). You can install it via pip, but it is recommended to install it standalone.
+3. install [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) via uv:
+
+```bash
+uv tool install cookiecutter
+```
+
+### Step 2: Create a new project
+Initialize a new python project using cookiecutter. There are many different templates available online. A simple one for python projects could be `gh:RDoerfel/simple-cookiecutter` or `gh:patrickmineault/true-neutral-cookiecutter`. A more majur one for complex projects could be `gh:CBS-HPC/replication_package`:
+
+In your root directory, run:
+```bash
+cookiecutter gh:RDoerfel/simple-cookiecutter
+```
+This will prompt you to enter some information about your project, like the project name, author name, etc. After you have entered all the information, cookiecutter will create a new directory with the project structure based on the template. 
+Once done, navigate into your new project directory:
+```bash
+cd your_project_name
+ls -a
+```
+
+If you used the simple-cookiecutter template, you should see a structure like this:
+
+```
+your-project-name/
+├── your_package_name/     # Main source code
+├── data/                  # Data files
+├── docs/                  # Documentation
+├── notebooks/             # Jupyter notebooks
+├── results/               # Analysis results
+├── scripts/               # Utility scripts
+├── tests/                 # Test files
+├── .gitignore
+├── LICENSE
+├── README.md
+└── pyproject.toml         # Poetry configuration
+```
+### Setup 3: Setup Python environment
+Now select a specific python version and initialize a new environment using uv:
+```bash
+uv python install 3.12
+uv venv --python 3.12
+```
+This will create a new virtual environment for your project and a `pyproject.toml` file to manage your dependencies.
+
+If you already have a pyproject.toml available, probably created from cookiecutter, you can skip the previous step and just run
+```bash
+uv sync
+```
+
+You can now add dependencies to your project using uv. For example, to add numpy and pandas, run:
+```bash
+uv add numpy pandas
+```
+This will install the packages and add them to your `pyproject.toml` file. 
+
+### Step 4: Version control
+Now you can start adding your code and files to the project. Remember to commit your changes regularly using git. First start by initializing your local git repository
+```bash
+git init
+```
+If you want to add a remote repository, for example on github, you can do so by running:
+```bash
+git remote add origin your_remote_repository_url
+```
+It is recommended to use [ssh](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) for authentication instead of https.
+Now start by adding all files and add everything and push your first commit:
+```bash
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+In the future, you can just add, commit and push your changes regularly. Keep commits small, i.e. one commit per feature or bugfix and add meaningful commit messages. You can always revert to previous versions if something goes wrong. It is much easier if you have a finegrained git history.
 
