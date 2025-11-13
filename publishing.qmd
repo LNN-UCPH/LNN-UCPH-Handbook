@@ -1,6 +1,3 @@
----
-title: "Publishing"
-editor: visual
----
+# Publishing
 
 ## When, Where and how to Publish:
