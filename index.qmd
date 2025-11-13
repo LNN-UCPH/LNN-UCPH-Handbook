@@ -1,7 +1,7 @@
 <!-- NOTE: do not re-name this file!  It has to be called index.qmd -->
 
 # Welcome to the handbook for LNN @ UCPH! {.unnumbered}
-# [Click here to return to our lab website](https://lnn-ucph.github.io/)
+[Click here to return to our lab website](https://lnn-ucph.github.io/)
 
 ::: callout-note
 Note to lab members: this document is a work in progress and may change.
