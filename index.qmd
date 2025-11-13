@@ -2,7 +2,7 @@
 
 # Welcome to the handbook for LNN @ UCPH! {.unnumbered}
 
-[Click here to return to our lab website](https://lnn-ucph.github.io/)
+## [Click here to return to our lab website](https://lnn-ucph.github.io/)
 
 ## How to use the handbook
 This is a guide for prospective, new, and current members of LNN-UCPH. 
