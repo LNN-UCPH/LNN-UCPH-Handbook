@@ -7,3 +7,7 @@
 
 ## Travel funding
 - [Rigshospitalets Jubilæumsfond:](https://www.legatbogen.dk/rigshospitalets-jubilumsfond)
+
+## PhD funding
+- [Danish Data Science Academy](https://ddsa.dk/)
+- [Danish Advanced Research Academy](https://www.daracademy.dk/)
