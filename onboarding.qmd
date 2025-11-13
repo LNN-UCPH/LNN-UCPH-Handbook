@@ -8,6 +8,10 @@ The Lab for [Neuroimaging and Neuroinformatics (LNN @ UCPH)](https://lnn-ucph.gi
 
 Most of us are located at the Department of Computer Science of the University of Copenhagen, but we also have affiliates located at the [Neurobiology Research Unit](www.nru.dk) of the Copenhagen University Hospital (Rigshospitalet). 
 
+
+![DIKU and NRU location](pics/lab_map.png)
+
+
 ::: callout-note
 We expect this checklist to be constantly evolving and encourage you to edit it as *part of onboarding*.
 See [Editing This Book](contributing.qmd).
