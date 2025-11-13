@@ -5,24 +5,27 @@
 ### Neuroimaging
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+
+### Computational Medical Imaging
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
 |[MICCAI](https://miccai.org/index.php/events/upcoming-conferences/)      | Feb/March | Sep/Oct    |   x   |  <ul><li>list item 1</li><li>list item 2</li></ul>  |
 |[ISBI](https://biomedicalimaging.org/)  |  Oct/Nov |  May  |  X        |          |
 |[IPMI](https://ipmi2025.org/) | Dec - every 2nd year | May|X |          |
 |[MIDL](https://2026.midl.io/) | Dec/Jan | July |X | |
 
-### Computational Medical Imaging
-| Conference | Sub. date | Conf. date | Indexed? | Comments |
-|------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
 
 ### Computer Vision
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
-|            |           |            |          |          |
-|            |           |            |          |          |
-|            |           |            |          |          |
+|[CVPR](https://cvpr.thecvf.com/) | Nov           | June           |   X       |          |
+|[ICCV](https://iccv.thecvf.com/)/[ECCV](https://eccv.ecva.net/) | March  | Oct | X |Alternates each year||
+| [WACV](https://wacv.thecvf.com/)  | Round 1: July, Round 2: Sep |  March  | X |         |
+|[ICLR](https://iclr.cc/)  | Sep       |     Apr    |   X       |          |
 
 ### Machine learning
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
