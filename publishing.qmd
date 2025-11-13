@@ -30,26 +30,29 @@
 |            |           |            |          |          |
 |            |           |            |          |          |
 
-### Health Informatics| Conference | Sub. date | Conf. date | Indexed? | Comments |
+### Health Informatics
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
 |            |           |            |          |          |
 |            |           |            |          |          |
 |            |           |            |          |          |
 
-### Fairness| Conference | Sub. date | Conf. date | Indexed? | Comments |
+### Fairness
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
 |            |           |            |          |          |
 |            |           |            |          |          |
 |            |           |            |          |          |
 
-### NLP| Conference | Sub. date | Conf. date | Indexed? | Comments |
+### NLP
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
 |            |           |            |          |          |
 |            |           |            |          |          |
 |            |           |            |          |          |
 
 
-### tmp
+### Misc.
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
 |------------|-----------|------------|----------|----------|
 |            |           |            |          |          |
