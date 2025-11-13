@@ -1,6 +1,25 @@
 # Publishing
 
-## Overview of relevant LNN Conferences:
+## Where to Submit
+You have completed world changing research and are now looking for a place to publish your work, congratulations!
+There are several guides online about how to determine where to submit your work for publishing.
+First, you should choose whether to submit your work to a conference (preferrably an indexed one) or a journal.
+In order to determine this, you should consider:
+1. the type of research you completed (e.x., review paper, short abstract, new methodology, full research paper)
+2. what you aim to get out of publishing the work (e.x., some peer review, indexing for citations and h-index, attending a conference for networking)
+3. your timeline (e.x., you're graduating soon and losing data access)
+
+## Explore the differences between journal and conference submissions
+This was adapted from [Pub Scholars](https://pubscholars.org/conference/conference-papers-vs-journal-paper-major-difference/).
+| Aspect | Journal Paper | Conference Paper |
+|--------|---------------|------------------|
+| Impact |  Citations/H-index, grant submissions, career development.   | Feedback, networking, visibility. |
+| Publication Time |               |            |
+| Content |               |            |
+| Length |               |            |
+| Peer Review |               |            |
+
+## Overview of Relevant LNN Conferences
 
 ### Neuroimaging
 | Conference | Sub. date | Conf. date | Indexed? | Comments |
