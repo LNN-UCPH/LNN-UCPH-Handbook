@@ -33,7 +33,7 @@ book:
     - research-best-practices.qmd
     # - authorship.qmd
     - data-resources.qmd
-    - references.qmd
+    - publishing.qmd
 
 bibliography: references.bib
 
