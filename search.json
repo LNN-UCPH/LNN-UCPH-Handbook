@@ -164,7 +164,27 @@
     "href": "publishing.html",
     "title": "6  Publishing",
     "section": "",
-    "text": "Overview of relevant LNN Conferences:",
+    "text": "Where to Submit\nYou have completed world changing research and are now looking for a place to publish your work, congratulations! There are several guides online about how to determine where to submit your work for publishing. First, you should choose whether to submit your work to a conference (preferrably an indexed one) or a journal. In order to determine this, you should consider: 1. the type of research you completed (e.x., review paper, short abstract, new methodology, full research paper) 2. what you aim to get out of publishing the work (e.x., some peer review, indexing for citations and h-index, attending a conference for networking) 3. your timeline (e.x., you’re graduating soon and losing data access)",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Publishing</span>"
+    ]
+  },
+  {
+    "objectID": "publishing.html#explore-the-differences-between-journal-and-conference-submissions",
+    "href": "publishing.html#explore-the-differences-between-journal-and-conference-submissions",
+    "title": "6  Publishing",
+    "section": "Explore the Differences Between Journal and Conference Submissions",
+    "text": "Explore the Differences Between Journal and Conference Submissions\nThis was adapted from Pub Scholars. | Aspect | Journal Paper | Conference Paper | |——–|—————|——————| | Impact | Citations/H-index, grant submissions, career development | Feedback, networking, visibility | | Content | Works in progress and recent findings | Full research project with storyline and in-depth results | | Length | Abstracts, Short/Long Papers | Full papers | | Peer Review Duration | 1 - 3 months | 6 months - over 1 year | | Peer Review | Basic, 1-2 reviewers | Rigorous, 2-4 reviewers |",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Publishing</span>"
+    ]
+  },
+  {
+    "objectID": "publishing.html#how-to-choose-a-journal",
+    "href": "publishing.html#how-to-choose-a-journal",
+    "title": "6  Publishing",
+    "section": "How to Choose a Journal",
+    "text": "How to Choose a Journal\nChoosing a journal for submission can be daunting. The first step would be to explore the papers that you cite the most and the papers that are most alike your own work – which journals are they published in? These journals likely have a scope that includes your own work. The second step is to discuss the impact factor of these journals, and your publication goals. The higher the impact factor, the more rigorous the reviews, and the lower the odds of being accepted. There are several tools online to use, and don’t be afraid to lean on your mentors for suggestions.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Publishing</span>"
     ]
@@ -173,8 +193,8 @@
     "objectID": "publishing.html#overview-of-relevant-lnn-conferences",
     "href": "publishing.html#overview-of-relevant-lnn-conferences",
     "title": "6  Publishing",
-    "section": "",
-    "text": "Neuroimaging\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nOHBM\nDec\nJune\n\n\n\n\nISMRM\nOct\nMay\n\n\n\n\nFITNG\nFeb/Mar\nVaried\n\n\n\n\n\n\n\nComputational Medical Imaging\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nMICCAI\nFeb/March\nSep/Oct\nX\n\n\n\nISBI\nOct/Nov\nMay\nX\n\n\n\nIPMI\nDec\nMay\nX\nEvery second year\n\n\nMIDL\nDec/Jan\nJuly\nX\n\n\n\n\n\n\nComputer Vision\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nCVPR\nNov\nJune\nX\n\n\n\nICCV/ECCV\nMarch\nOct\nX\nAlternates each year\n\n\nWACV\nRound 1: July, Round 2: Sep\nMarch\nX\n\n\n\n\n\n\nMachine learning\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nNeurIPS/EurIPS\nMay\nDec\nX\nIndexed workshops\n\n\nICML\nSep\nApril\nX\n\n\n\nICLR\nSep\nApril\nX\n\n\n\nAAAI\nAugust\nFeb/March\nX\n\n\n\n\n\n\nHealth Informatics\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nMIE\nOct/Nov\nMay/June\nX\n\n\n\nAMIA\nMarch\nNov\nX\n\n\n\nCHIL\nFeb\nJune\n\n\n\n\n\n\n\nFairness/Human Computer Interaction\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nFACCT\nJan\nJune\nX\n\n\n\nCHI\nSept\nApril/May\nX\n\n\n\nEWAF\nMarch\nJune/July\n\n\n\n\n\n\n\nNLP\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nEMNLP\nMay\nNov/Dec\nX\n\n\n\nACL\nFeb\nJuly/August\nX\n\n\n\nEACL\nOct\nMarch\nX\n\n\n\nCOLM\nMarch\nOctober\n\n\n\n\n\n\n\nMisc.\n\n\n\n\n\n\n\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nLet us know if you have one to add!\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\nTBA",
+    "section": "Overview of Relevant LNN Conferences",
+    "text": "Overview of Relevant LNN Conferences\nChoosing a conference can be exciting, as it’s an opportunity to travel, network, and engage in leanring about science within your discipline. There are lots of different conference types, and it makes sense to choose a conference that aligns best with your research topic. Consider whether it’s important to submit work to a conference that is indexed, and whether there are workshops associated with the conference that are also indexed.\n\nNeuroimaging\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nOHBM\nDec\nJune\n\n\n\n\nISMRM\nOct\nMay\n\n\n\n\nFITNG\nFeb/Mar\nVaried\n\n\n\n\n\n\n\nComputational Medical Imaging\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nMICCAI\nFeb/March\nSep/Oct\nX\n\n\n\nISBI\nOct/Nov\nMay\nX\n\n\n\nIPMI\nDec\nMay\nX\nEvery second year\n\n\nMIDL\nDec/Jan\nJuly\nX\n\n\n\n\n\n\nComputer Vision\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nCVPR\nNov\nJune\nX\n\n\n\nICCV/ECCV\nMarch\nOct\nX\nAlternates each year\n\n\nWACV\nRound 1: July, Round 2: Sep\nMarch\nX\n\n\n\n\n\n\nMachine learning\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nNeurIPS/EurIPS\nMay\nDec\nX\nIndexed workshops\n\n\nICML\nSep\nApril\nX\n\n\n\nICLR\nSep\nApril\nX\n\n\n\nAAAI\nAugust\nFeb/March\nX\n\n\n\n\n\n\nHealth Informatics\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nMIE\nOct/Nov\nMay/June\nX\n\n\n\nAMIA\nMarch\nNov\nX\n\n\n\nCHIL\nFeb\nJune\n\n\n\n\n\n\n\nFairness/Human Computer Interaction\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nFACCT\nJan\nJune\nX\n\n\n\nCHI\nSept\nApril/May\nX\n\n\n\nEWAF\nMarch\nJune/July\n\n\n\n\n\n\n\nNLP\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nEMNLP\nMay\nNov/Dec\nX\n\n\n\nACL\nFeb\nJuly/August\nX\n\n\n\nEACL\nOct\nMarch\nX\n\n\n\nCOLM\nMarch\nOctober\n\n\n\n\n\n\n\nMisc.\n\n\n\n\n\n\n\n\n\n\nConference\nSub. date\nConf. date\nIndexed?\nComments\n\n\n\n\nLet us know if you have one to add!\n\n\n\n\n\n\nTBA\n\n\n\n\n\n\nTBA",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Publishing</span>"
     ]
