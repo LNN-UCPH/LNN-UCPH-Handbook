@@ -2,16 +2,16 @@
 # LNN@UCPH Lab philosophy
 
 ## Mission statement
-The Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH focuses on leveraging advanced imaging technologies and computational methods to study the human brain. We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.
+The [Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH](https://lnn-ucph.github.io) focuses on leveraging advanced imaging technologies and computational methods to study the human brain. We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.
 
 ## Shared leadership
-The Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH is led by two senior researchers, Assoc. Professor Melanie Ganz-Benjaminsen and Asst. prof. Martin Nørgaard. We believe that good science and research is inherently interdisciplinary and that we can drive science further when we work and collaborate with others. Therefore we have chosen to lead the lab together - one of us focusing a bit more on neuroimaging and the other on neuroinformatics.
+The Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH is led by two senior researchers, [Assoc. Professor Melanie Ganz-Benjaminsen](https://researchprofiles.ku.dk/en/persons/melanie-ganz-benjaminsen/) and [Asst. Professor Martin Nørgaard](https://researchprofiles.ku.dk/en/persons/martin-n%C3%B8rgaard/). We believe that good science and research is inherently interdisciplinary and that we can drive science further when we work and collaborate with others. Therefore we have chosen to lead the lab together - one of us focusing a bit more on neuroimaging and the other on neuroinformatics.
 
 ## Lab environment
 
 ### Code of Conduct
 It is important that everyone at the department treats each other with respect and empathy. That's why the Department of Computer Science (DIKU) at the University of Copenhagen has a Code of Conduct, which everyone must follow. These guidelines are designed to ensure that everyone feels included and equal.
-Read the DIKU Code of Conduct here.
+Read the DIKU Code of Conduct [here](https://di.ku.dk/english/diversity-and-inclusion/Code_of_Conduct_EN.pdf).
 
 ### Work-Life balance 
 It is expected that you check for e-mail updates during the week, but not in the evenings, holidays, or on the weekend. For emergencies please use the private email addresses or any other media that you have agreed with your supervisor on.
@@ -32,10 +32,10 @@ We are actively trying to create a good work environment to prevent work-related
 
 ## References 
 
-Inspirations for this lab philosophy were taken from 
--Prof. Russ Poldrack - Poldracklab https://www.poldracklab.org/labguide 
--Prof. Henriette Autzen - Autzen group https://www.hautzen.com/resources 
--Dr. Kirstie Whitaker - Whitaker lab https://whitaker-lab.netlify.app/ 
+Inspirations for this lab philosophy were taken from: 
+- Prof. Russ Poldrack - Poldracklab https://www.poldracklab.org/labguide 
+- Prof. Henriette Autzen - Autzen group https://www.hautzen.com/resources 
+- Dr. Kirstie Whitaker - Whitaker lab https://whitaker-lab.netlify.app/ 
 
 
 
