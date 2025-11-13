@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -339,8 +374,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#hendrix-cluster" id="toc-hendrix-cluster" class="nav-link active" data-scroll-target="#hendrix-cluster">Hendrix Cluster</a>
+  <ul class="collapse">
+  <li><a href="#accessing-the-cluster" id="toc-accessing-the-cluster" class="nav-link" data-scroll-target="#accessing-the-cluster">1. Accessing the cluster</a></li>
+  <li><a href="#first-time-setup" id="toc-first-time-setup" class="nav-link" data-scroll-target="#first-time-setup">2. First time setup</a></li>
+  <li><a href="#available-resources" id="toc-available-resources" class="nav-link" data-scroll-target="#available-resources">3. Available resources</a></li>
+  <li><a href="#basic-slurm-commands-job-submission-script" id="toc-basic-slurm-commands-job-submission-script" class="nav-link" data-scroll-target="#basic-slurm-commands-job-submission-script">4. Basic SLURM commands &amp; job submission script</a></li>
+  <li><a href="#mounting-erda" id="toc-mounting-erda" class="nav-link" data-scroll-target="#mounting-erda">Mounting ERDA</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/LNN-UCPH/LNN-UCPH-Handbook/edit/main/computational_resources.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/LNN-UCPH/LNN-UCPH-Handbook/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -365,8 +413,199 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Overview of various computational resources</p>
+<section id="hendrix-cluster" class="level2">
+<h2 class="anchored" data-anchor-id="hendrix-cluster">Hendrix Cluster</h2>
+<p>For full official documentation, please check out:</p>
+<ul>
+<li><a href="https://www.bric.ku.dk/core-facilities/slurm/">Slurm User Guide</a></li>
+<li><a href="https://diku-dk.github.io/wiki/">The wiki of DIKU</a></li>
+</ul>
+<p>Below is a practical guide on: gaining access, submitting a job, available resources &amp; nice-to-knows, and mounting SIF / ERDA storage.</p>
+<section id="accessing-the-cluster" class="level3">
+<h3 class="anchored" data-anchor-id="accessing-the-cluster">1. Accessing the cluster</h3>
+<p>To access the cluster you need the following things:</p>
+<ul>
+<li>Your institutional credentials (user ID + password)</li>
+<li>Request “SRV-hendrixgate-users” through <a href="identity.ku.dk">identity.ku.dk</a>
+<ul>
+<li>Employees should send a mail to <a href="mailto:cluster-access@di.ku.dk">cluster-access@di.ku.dk</a></li>
+<li>Students should have their supervisor send a mail to <a href="mailto:cluster-access@di.ku.dk">cluster-access@di.ku.dk</a>, or cc their supervisor for confirmation that they need cluster access.</li>
+<li>Whether you are a student or an employee, you should include your ku-id in the mail as well as your research section affiliation (students should write student). This drastically reduced the time it will take to get access.</li>
+</ul></li>
+<li>You need network access (either physically on site or via VPN(https://kunet.ku.dk/employee-guide/Pages/IT/Remote-access.aspx)). Remote access requires you to be on the correct network.</li>
+</ul>
+<p>For external guests:</p>
+<ul>
+<li>Access to the cluster infrastructure requires an active account. Access for external guests can be requested by a KU employee via <a href="https://identity.ku.dk/">https://identity.ku.dk/</a> -&gt; “Menu button” -&gt; “Manage Identity” -&gt; “Create external guest”. Make sure that the checkbox next to “Science guest” is ticked.</li>
+<li>The guest user must then follow the instructions outlined in the e-mail they receive. Afterwards they can request the required role via <a href="“https://identity-guest.ku.dk/identityiq/login.jsf”">“https://identity-guest.ku.dk/identityiq/login.jsf”</a> -&gt; “Login” -&gt; “Manage My Access” -&gt; “Search” -&gt; Select check button next to “SRV-hendrixgate-users” -&gt; “Next” -&gt; “Submit”.</li>
+<li>Afterwards the KU employee should send an e-mail to <a href="cluster-access@di.ku.dk">cluster-access@di.ku.dk</a> including the external guest’s e-mail address as well as their name or user id. Once the external guest receives our welcome e-mail they should follow the steps below.</li>
+</ul>
+</section>
+<section id="first-time-setup" class="level3">
+<h3 class="anchored" data-anchor-id="first-time-setup">2. First time setup</h3>
+<p>Hendrix can be accessed via a two-layer access: - First you connect to the university network, and then you use ssh to connect to the server. To connect to the university network, either use a direct network cable connection in your office or use VPN - For the second step, you need to install and configure ssh. Put the following in your ~/.ssh/config (Linux/MacOS) or in C:/Users/YOUR_WINDOWS_USER/.ssh/config (Windows, a simple text file with no file ending!):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Host</span> hendrix</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">HostName</span> hendrixgate</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="ex">User</span> <span class="op">&lt;</span>kuid<span class="op">&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="ex">StrictHostKeyChecking</span> no</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="ex">CheckHostIP</span> no</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="va">UserKnownHostsFile</span><span class="op">=</span>/dev/null</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Now you will be able to connect to hendrix by opening a terminal and writing:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> hendrix</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="available-resources" class="level3">
+<h3 class="anchored" data-anchor-id="available-resources">3. Available resources</h3>
+<p>There are a few limits, decided by the cluster usergroup and enforced by the system which it may be helpfull to be aware of:</p>
+<ul>
+<li>There is a limit of 8 gpus per user, which means that any jobs exceeding this limit will be rejected at queue time</li>
+<li>The default timelimit for a job is 5 hours, which means that any job that does not have an explicit timelimit will terminate after 5 hours regardless if the job has finished.</li>
+<li>There is a max timelimit for a job of 48 hours. this means that all jobs will terminate after 48 hours regardless if the job has finished.</li>
+</ul>
+<p>Available GPUs:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Resource-Name</th>
+<th>Model</th>
+<th>Count</th>
+<th>Memory(GB)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>h100</td>
+<td>Nvidia H100</td>
+<td>4</td>
+<td>80</td>
+</tr>
+<tr class="even">
+<td>a100</td>
+<td>Nvidia A100</td>
+<td>26</td>
+<td>80/40</td>
+</tr>
+<tr class="odd">
+<td>a40</td>
+<td>Nvidia A40</td>
+<td>14</td>
+<td>40</td>
+</tr>
+<tr class="even">
+<td>titanrtx</td>
+<td>Titan RTX + Quadro RTX 6000</td>
+<td>55</td>
+<td>??</td>
+</tr>
+<tr class="odd">
+<td>titanx</td>
+<td>Titan X/Xp/V</td>
+<td>15</td>
+<td>??</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="basic-slurm-commands-job-submission-script" class="level3">
+<h3 class="anchored" data-anchor-id="basic-slurm-commands-job-submission-script">4. Basic SLURM commands &amp; job submission script</h3>
+<ul>
+<li><code>srun</code>: run a job interactively on the cluster.</li>
+<li><code>sbatch</code>: submit a batch job script.</li>
+<li><code>squeue</code>: view jobs in the queue (yours or all).</li>
+<li><code>scancel &lt;jobid&gt;</code>: cancel a job.</li>
+<li><code>sinfo</code>: show the state of partitions and nodes.</li>
+</ul>
+<p>Example batch script (bash + SLURM directives):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --job-name=my_job</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --output=output_%j.log</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --error=error_%j.log</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --ntasks=1</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --cpus-per-task=4</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH -p gpu --gres=gpu:titanx:2</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --mem=8G</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --time=02:00:00</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --partition=normal_prio</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> purge</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="ex">module</span> load python/3.9</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co"># other modules as needed</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"Starting job on </span><span class="va">$(</span><span class="fu">hostname</span><span class="va">)</span><span class="st">"</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> my_script.py <span class="at">--input</span> data/input.txt <span class="at">--output</span> results/out.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This can now be submitted using:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">sbatch</span> this_script.sh</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Nice-to-knows:</p>
+<ul>
+<li>Module system: Use <code>module avail</code> to list available software packages, and <code>module load {package/version}</code> to load the ones you need. Purge old modules at start to avoid conflicts.</li>
+<li>Interactive sessions: Use <code>srun --pty bash</code> (or <code>salloc</code>) if you want an interactive shell on a compute node (e.g., for testing)</li>
+</ul>
+</section>
+<section id="mounting-erda" class="level3">
+<h3 class="anchored" data-anchor-id="mounting-erda">Mounting ERDA</h3>
+<p>To mount ERDA on Hendrix, start by making a RSA key on Hendrix by opening a terminal and running:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> rsa</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Copy your SSH public key (~/.ssh/id_rsa.pub) into ERDA under setup -&gt; SFTP -&gt; Public Keys.</p>
+<p>Script to Mount ERDA: Save the following as <code>mount_erda.sh</code> and make it executable (<code>chmod +x mount_erda.sh</code>):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Variables (replace placeholders with your info)</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="va">KEY</span><span class="op">=</span>~/.ssh/id_rsa             <span class="co"># Path to your private key</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="va">USER</span><span class="op">=</span>your_erda_username       <span class="co"># e.g., xxx999@di.ku.dk</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="va">ERDADIR</span><span class="op">=</span>./                     <span class="co"># Remote directory on ERDA to mount</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="va">MNT</span><span class="op">=</span>~/erda_mount               <span class="co"># Local mount point</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if the private key exists</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-f</span> <span class="st">"</span><span class="va">$KEY</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Error: Private key '</span><span class="va">$KEY</span><span class="st">' not found."</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">exit</span> 1</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the mount point if it doesn't exist</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if the directory is empty</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="st">"</span><span class="va">$(</span><span class="fu">ls</span> <span class="at">-A</span> <span class="va">${MNT})</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Mount point '</span><span class="va">${MNT}</span><span class="st">' is not empty. Cleaning it up..."</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    <span class="bu">read</span> <span class="at">-p</span> <span class="st">"Are you sure you want to delete the contents of '</span><span class="va">${MNT}</span><span class="st">'? (y/n): "</span> <span class="va">confirm</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">[</span> <span class="st">"</span><span class="va">$confirm</span><span class="st">"</span> <span class="ot">=</span> <span class="st">"y"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>        <span class="fu">rm</span> <span class="at">-r</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span>/<span class="pp">*</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>        <span class="bu">echo</span> <span class="st">"Aborting mount."</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>        <span class="bu">exit</span> 1</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">fi</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Mount ERDA using sshfs</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a><span class="ex">sshfs</span> <span class="at">-o</span> IdentityFile=<span class="st">"</span><span class="va">${KEY}</span><span class="st">"</span> <span class="st">"</span><span class="va">${USER}</span><span class="st">@io.erda.dk:</span><span class="va">${ERDADIR}</span><span class="st">"</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="va">$?</span> <span class="ot">-eq</span> 0 <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"ERDA mounted successfully at '</span><span class="va">${MNT}</span><span class="st">'"</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Error mounting ERDA."</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Script to Unmount ERDA Save as <code>unmount_erda.sh</code> and make it executable (<code>chmod +x mount_erda.sh</code>):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Local mount point (replace with your path)</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="va">MNT</span><span class="op">=</span>~/erda_mount</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Check if the directory is mounted</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="ex">mountpoint</span> <span class="at">-q</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">fusermount</span> <span class="at">-uz</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"ERDA directory unmounted from '</span><span class="va">${MNT}</span><span class="st">'"</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Error: '</span><span class="va">${MNT}</span><span class="st">' is not mounted."</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Optionally remove the mount point directory</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">-d</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span> <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rm</span> <span class="at">-r</span> <span class="st">"</span><span class="va">${MNT}</span><span class="st">"</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"Mount point directory '</span><span class="va">${MNT}</span><span class="st">' removed."</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -807,7 +1046,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/LNN-UCPH/LNN-UCPH-Handbook/edit/main/computational_resources.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/LNN-UCPH/LNN-UCPH-Handbook/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/LNN-UCPH/LNN-UCPH-Handbook/edit/main/computational_resources.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/LNN-UCPH/LNN-UCPH-Handbook/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Made with <a href="https://quarto.org/">Quarto</a> using the <a href="https://github.com/cct-datascience/group-handbook-template">Lab Group Handbook Template</a></p>
 </div>
