@@ -9,7 +9,7 @@ execute:
 book:
   title: "LNN-UCPH Handbook"
   search: true
-  repo-url: https://lnn-ucph.github.io/LNN-UCPH-Handbook/
+  repo-url: https://github.com/LNN-UCPH/LNN-UCPH-Handbook
   repo-actions: [edit, issue]
   repo-link-target: "_blank" #makes issue and edit links open in a new window/tab 
   page-footer: 
