@@ -33,9 +33,7 @@ We are actively trying to create a good work environment to prevent work-related
 ## References 
 
 Inspirations for this lab philosophy were taken from: 
-- Prof. Russ Poldrack - Poldracklab https://www.poldracklab.org/labguide 
-- Prof. Henriette Autzen - Autzen group https://www.hautzen.com/resources 
-- Dr. Kirstie Whitaker - Whitaker lab https://whitaker-lab.netlify.app/ 
 
-
-
+- [Prof. Russ Poldrack – Poldracklab](https://www.poldracklab.org/labguide)
+- [Prof. Henriette Autzen – Autzen group](https://www.hautzen.com/resources)
+- [Dr. Kirstie Whitaker – Whitaker lab](https://whitaker-lab.netlify.app/)

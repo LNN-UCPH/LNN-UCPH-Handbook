@@ -1,2 +1,173 @@
-
 # Computational Resources
+Overview of various computational resources
+
+## Hendrix Cluster
+For full official documentation, please check out:
+
+- [Slurm User Guide](https://www.bric.ku.dk/core-facilities/slurm/)
+- [The wiki of DIKU](https://diku-dk.github.io/wiki/)
+
+Below is a practical guide on: gaining access, submitting a job, available resources & nice-to-knows, and  mounting SIF / ERDA storage.
+
+### 1. Accessing the cluster
+
+
+To access the cluster you need the following things:
+
+- Your institutional credentials (user ID + password)
+- Request “SRV-hendrixgate-users” through [identity.ku.dk](identity.ku.dk)
+    - Employees should send a mail to [cluster-access@di.ku.dk](mailto:cluster-access@di.ku.dk)
+    - Students should have their supervisor send a mail to [cluster-access@di.ku.dk](mailto:cluster-access@di.ku.dk), or cc their supervisor for confirmation that they need cluster access.
+    - Whether you are a student or an employee, you should include your ku-id in the mail as well as your research section affiliation (students should write student). This drastically reduced the time it will take to get access.
+- You need network access (either physically on site or via VPN(https://kunet.ku.dk/employee-guide/Pages/IT/Remote-access.aspx)). Remote access requires you to be on the correct network.
+
+For external guests:
+
+- Access to the cluster infrastructure requires an active account. Access for external guests can be requested by a KU employee via [https://identity.ku.dk/](https://identity.ku.dk/) -> “Menu button” -> “Manage Identity” -> “Create external guest”. Make sure that the checkbox next to “Science guest” is ticked. 
+- The guest user must then follow the instructions outlined in the e-mail they receive. Afterwards they can request the required role via [“https://identity-guest.ku.dk/identityiq/login.jsf”](“https://identity-guest.ku.dk/identityiq/login.jsf”) -> "Login" -> “Manage My Access” -> "Search" -> Select check button next to “SRV-hendrixgate-users” -> "Next" -> "Submit". 
+- Afterwards the KU employee should send an e-mail to [cluster-access@di.ku.dk](cluster-access@di.ku.dk) including the external guest’s e-mail address as well as their name or user id. Once the external guest receives our welcome e-mail they should follow the steps below.
+
+### 2. First time setup
+Hendrix can be accessed via a two-layer access:
+- First you connect to the university network, and then you use ssh to connect to the server. To connect to the university network, either use a direct network cable connection in your office or use VPN
+- For the second step, you need to install and configure ssh. Put the following in your ~/.ssh/config (Linux/MacOS) or in C:/Users/YOUR_WINDOWS_USER/.ssh/config (Windows, a simple text file with no file ending!):
+```bash
+Host hendrix
+    HostName hendrixgate
+    User <kuid>
+    StrictHostKeyChecking no
+    CheckHostIP no
+    UserKnownHostsFile=/dev/null
+```
+
+Now you will be able to connect to hendrix by opening a terminal and writing:
+```bash
+ssh hendrix
+```
+
+### 3. Available resources
+There are a few limits, decided by the cluster usergroup and enforced by the system which it may be helpfull to be aware of:
+
+- There is a limit of 8 gpus per user, which means that any jobs exceeding this limit will be rejected at queue time 
+- The default timelimit for a job is 5 hours, which means that any job that does not have an explicit timelimit will terminate after 5 hours regardless if the job has finished.
+- There is a max timelimit for a job of 48 hours. this means that all jobs will terminate after 48 hours regardless if the job has finished.
+
+Available GPUs:
+
+| Resource-Name    | Model | Count    | Memory(GB) |
+| -------- | ------- | -------- | ------- |
+| h100  | Nvidia H100    | 4  | 80    |
+| a100 | Nvidia A100     | 26 | 80/40     |
+| a40    | Nvidia A40   | 14    | 40    |
+| titanrtx  | Titan RTX + Quadro RTX 6000    | 55  | ??    |
+| titanx | Titan X/Xp/V     | 15 | ??     |
+
+### 4. Basic SLURM commands & job submission script
+- `srun`: run a job interactively on the cluster.
+- `sbatch`: submit a batch job script.
+- `squeue`: view jobs in the queue (yours or all).
+- `scancel <jobid>`: cancel a job.
+- `sinfo`: show the state of partitions and nodes.
+
+Example batch script (bash + SLURM directives):
+```bash
+#!/bin/bash
+#SBATCH --job-name=my_job
+#SBATCH --output=output_%j.log
+#SBATCH --error=error_%j.log
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH -p gpu --gres=gpu:titanx:2
+#SBATCH --mem=8G
+#SBATCH --time=02:00:00
+#SBATCH --partition=normal_prio
+
+module purge
+module load python/3.9
+# other modules as needed
+
+echo "Starting job on $(hostname)"
+python my_script.py --input data/input.txt --output results/out.txt
+
+```
+
+This can now be submitted using:
+```bash
+sbatch this_script.sh
+```
+
+Nice-to-knows:
+
+- Module system: Use `module avail` to list available software packages, and `module load {package/version}` to load the ones you need. Purge old modules at start to avoid conflicts.
+- Interactive sessions: Use `srun --pty bash` (or `salloc`) if you want an interactive shell on a compute node (e.g., for testing)
+
+### Mounting ERDA
+To mount ERDA on Hendrix, start by making a RSA key on Hendrix by opening a terminal and running:
+```bash
+ssh-keygen -t rsa
+```
+Copy your SSH public key (~/.ssh/id_rsa.pub) into ERDA under setup -> SFTP -> Public Keys.
+
+Script to Mount ERDA:
+Save the following as `mount_erda.sh` and make it executable (`chmod +x mount_erda.sh`):
+```bash
+#!/bin/bash
+
+# Variables (replace placeholders with your info)
+KEY=~/.ssh/id_rsa             # Path to your private key
+USER=your_erda_username       # e.g., xxx999@di.ku.dk
+ERDADIR=./                     # Remote directory on ERDA to mount
+MNT=~/erda_mount               # Local mount point
+
+# Check if the private key exists
+if [ ! -f "$KEY" ]; then
+    echo "Error: Private key '$KEY' not found."
+    exit 1
+fi
+
+# Create the mount point if it doesn't exist
+mkdir -p "${MNT}"
+
+# Check if the directory is empty
+if [ "$(ls -A ${MNT})" ]; then
+    echo "Mount point '${MNT}' is not empty. Cleaning it up..."
+    read -p "Are you sure you want to delete the contents of '${MNT}'? (y/n): " confirm
+    if [ "$confirm" = "y" ]; then
+        rm -r "${MNT}"/*
+    else
+        echo "Aborting mount."
+        exit 1
+    fi
+fi
+
+# Mount ERDA using sshfs
+sshfs -o IdentityFile="${KEY}" "${USER}@io.erda.dk:${ERDADIR}" "${MNT}"
+if [ $? -eq 0 ]; then
+    echo "ERDA mounted successfully at '${MNT}'"
+else
+    echo "Error mounting ERDA."
+fi
+```
+
+Script to Unmount ERDA
+Save as `unmount_erda.sh` and make it executable (`chmod +x mount_erda.sh`):
+```bash
+#!/bin/bash
+
+# Local mount point (replace with your path)
+MNT=~/erda_mount
+
+# Check if the directory is mounted
+if mountpoint -q "${MNT}"; then
+    fusermount -uz "${MNT}"
+    echo "ERDA directory unmounted from '${MNT}'"
+else
+    echo "Error: '${MNT}' is not mounted."
+fi
+
+# Optionally remove the mount point directory
+if [ -d "${MNT}" ]; then
+    rm -r "${MNT}"
+    echo "Mount point directory '${MNT}' removed."
+fi
+```

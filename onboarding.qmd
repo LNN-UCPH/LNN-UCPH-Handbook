@@ -1,42 +1,79 @@
 # Onboarding
 
-::: callout-important
-## Group Edit
+Welcome!
 
-This is most easily edited by someone actively going through the onboarding process (or someone who recently joined the lab group).
-That being said, here are some discussion questions to get you started:
+The Lab for [Neuroimaging and Neuroinformatics (LNN @ UCPH)](https://lnn-ucph.github.io/) focuses on leveraging advanced imaging technologies and computational methods to study the human brain. We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.
 
--   How long is "onboarding"?
-    When can you say it is over and someone has completed it?
+![Lab pic](pics/labpic.jpg)
 
--   What do you feel was most difficult when you first joined the lab?
-    What tips would you want to pass along to someone on their first day, first week, etc.
+Most of us are located at the Department of Computer Science of the University of Copenhagen, but we also have affiliates located at the [Neurobiology Research Unit](www.nru.dk) of the Copenhagen University Hospital (Rigshospitalet). 
 
--   Who are the people to talk to in your department/college who hold the knowledge a newcomer might need to get settled in?
-    E.g. who does payroll, who can get you a spare monitor and keyboard, who can get you key card access, etc.
 
--   What are good ways to get to know people (personally and professionally) in your lab group/department/school/college?
-:::
+![DIKU and NRU location](pics/lab_map.png)
+
 
 ::: callout-note
 We expect this checklist to be constantly evolving and encourage you to edit it as *part of onboarding*.
 See [Editing This Book](contributing.qmd).
 :::
 
-## First day
+## Your first day 
+- [ ] Check the [lab website](https://lnn-ucph.github.io/)
+- [ ] Ask to be added to our [GitHub organization](https://github.com/LNN-UCPH)  
+- [ ] Add yourself to the website, check out this [project page](https://github.com/LNN-UCPH/LNN-UCPH.github.io)
+- [ ] Read the [Lab Philosophy](lab_philosophy.qmd)
 
-1.  Find your desk
-2.  Meet your PI
-3.  etc...
+## Meetings
+- Supervision Meetings - ensure to book individual supervision meetings with your supervisors
+- MIA (Medical Imaging Analysis) meetings on Thursdays at 12.15 (at DIKU)
+- NRU data analysis meetings on Tuesdays at 11.00 (at NRU)
+- Project meetings if you participate in large projects
+- [CS4ALL meetings](https://di.ku.dk/english/diversity-and-inclusion/cs4all/)
 
-## First week
+## LNN@UCPH Lab Resources
 
-1.  Set up regular meetings
-2.  Stake out lab space
-3.  etc...
+### Research tools
 
-## First semester
+#### Zotero
+For literature storage we utilise the open source tool Zotero. Please upload the most important papers for your project to a private Zotero group (https://www.zotero.org/) and add the relevant people to it. Remember to call the Zotero group something specific to your project.
 
-1.  Have a plan
-2.  Present at group meeting
-3.  etc...
+#### Overleaf
+For writing papers we use Overleaf. You can get access to Overleaf Premium with your KU e-mail. So make an Overleaf account or use your KU account and make a project and invite the relevant people. For thesis works you can use this template https://www.overleaf.com/edu/ucph
+
+### DIKU resources
+
+General information
+
+- DIKU webpage - [di.ku.dk](https://di.ku.dk/)
+- IMAGE Github - [github.com/diku-dk/IMAGE](https://github.com/diku-dk/IMAGE/)
+
+Communication channels
+
+- IMAGE Section Slack - [image-ucph.slack.com](image-ucph.slack.com)
+- KU mail - [webmail.ku.dk](webmail.ku.dk) 
+- IMAGE Trello - [Papers](https://trello.com/invite/b/614db1f7b565275beda3c43c/ATTIb7a0db01a6ae550d0b02cb2bcc49228a2CD7074B/-)
+- IMAGE Trello - [Funding](https://trello.com/invite/b/614db34924c2241a43609211/ATTId8e7de9db52951d8269ceea24632da2665122E2A/funding-proposals) 
+
+Administrative resources
+
+- DIKU internal [webpage](https://kunet.ku.dk/faculty-and-department/diku/Pages/default.aspx)
+
+### NRU resources
+
+General information
+
+- NRU webpage - [nru.dk](https://nru.dk/)
+
+Communication channels
+
+- NRU calendar and email - [cal.nru.dk](https://cal.nru.dk/)
+- NRU Discord (Ask for invitation)
+
+Administrative resources
+
+- NRU [staff manual](https://nru.dk/index.php/allcategories?task=download.send&id=9:nru-staff-manual&catid=10)
+- NRU wiki - [wiki.nru.dk](https://wiki.nru.dk/)
+
+
+
+

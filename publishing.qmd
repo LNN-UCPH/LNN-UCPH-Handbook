@@ -1,3 +1,97 @@
 # Publishing
 
-## When, Where and how to Publish:
+## Where to Submit
+You have completed world changing research and are now looking for a place to publish your work, congratulations!
+There are several guides online about how to determine where to submit your work for publishing.
+First, you should choose whether to submit your work to a conference (preferrably an indexed one) or a journal.
+In order to determine this, you should consider:
+
+1. The type of research you completed (e.x., review paper, short abstract, new methodology, full research paper)
+
+2. What you aim to get out of publishing the work (e.x., some peer review, indexing for citations and h-index, attending a conference for networking)
+
+3. What is your timeline (e.x., you're graduating soon and losing data access)
+
+## Explore the Differences Between Journal and Conference Submissions
+| Aspect | Conference Paper | Journal Paper |
+|--------|---------------|------------------|
+| Impact |  Feedback, networking, visibility | Citations/H-index, grant submissions, career development   |
+| Content |  Works in progress and recent findings  | Full research project with storyline and in-depth results |
+| Length |  Abstracts, Short/Long Papers |  Full papers  |
+| Peer Review Duration |  1 - 3 months  | 6 months - over 1 year |
+| Peer Review | Basic, 1-2 reviewers  |  Rigorous, 2-4 reviewers  |
+This was adapted from [Pub Scholars](https://pubscholars.org/conference/conference-papers-vs-journal-paper-major-difference/).
+Some machine learning conferences function more like a journal, with longer peer review periods and indexed works.
+
+## How to Choose a Journal
+Choosing a journal for submission can be daunting.
+The first step would be to explore the papers that you cite the most and the papers that are most alike your own work -- which journals are they published in?
+These journals likely have a scope that includes your own work.
+The second step is to discuss the impact factor of these journals, and your publication goals. The higher the impact factor, the more rigorous the reviews, and the lower the odds of being accepted.
+There are several tools online to use, and don't be afraid to lean on your mentors for suggestions.
+
+## Overview of Relevant LNN Conferences
+Choosing a conference can be exciting, as it's an opportunity to travel, network, and engage in leanring about science within your discipline.
+There are lots of different conference types, and it makes sense to choose a conference that aligns best with your research topic.
+Consider whether it's important to submit work to a conference that is indexed, and whether there are workshops associated with the conference that are also indexed.
+
+### Neuroimaging
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|[OHBM](https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=1)  | Dec   | June  |      |          |
+| [ISMRM](https://www.ismrm.org/)           | Oct          |May            |         |          |
+|[FITNG](https://fitng.org/)            |   Feb/Mar        | Varied           |          |          |
+
+
+### Computational Medical Imaging
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|[MICCAI](https://miccai.org/index.php/events/upcoming-conferences/)      | Feb/March | Sep/Oct    |   X   |  <ul><li>list item 1</li><li>list item 2</li></ul>  |
+|[ISBI](https://biomedicalimaging.org/)  |  Oct/Nov |  May  |  X        |          |
+|[IPMI](https://ipmi2025.org/) | Dec  | May|X |  Every second year       |
+|[MIDL](https://2026.midl.io/) | Dec/Jan | July |X | |
+
+
+### Computer Vision
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|[CVPR](https://cvpr.thecvf.com/) | Nov           | June           |   X       |          |
+|[ICCV](https://iccv.thecvf.com/)/[ECCV](https://eccv.ecva.net/) | March  | Oct | X |Alternates each year||
+| [WACV](https://wacv.thecvf.com/)  | Round 1: July, Round 2: Sep |  March  | X |         |
+
+### Machine learning
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|[NeurIPS](https://neurips.cc/)/EurIPS |   May   |    Dec    |    X    |  Indexed workshops   |
+|[ICML](https://icml.cc/) |    Sep    |    April     |   X     |          |
+|[ICLR](https://iclr.cc/) | Sep       |     April    |   X       |          |
+|[AAAI](https://aaai.org/conference/aaai/) |   August     |    Feb/March      |   X    |          |
+
+### Health Informatics
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|[MIE](https://efmi.org/conferences-journals/mie-confererence/) | Oct/Nov | May/June  | X  |          |
+| [AMIA](https://amia.org/education-events) | March | Nov  |   X  |          |
+| [CHIL](https://chil.ahli.cc/)| Feb  | June  |          |          |
+
+### Fairness/Human Computer Interaction
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+| [FACCT](https://facctconference.org/) | Jan |  June |  X   |          |
+| CHI |  Sept | April/May | X  |          |
+| EWAF |  March   |  June/July  |          |          |
+
+### NLP
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+| EMNLP |  May  | Nov/Dec |   X   |          |
+|  ACL |    Feb  |   July/August  |  X |          |
+|  [EACL](https://eacl.org/conferences/) |  Oct  |   March  |  X  |          |
+|  [COLM](https://colmweb.org/) |  March   |   October  |          |          |
+
+### Misc.
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|    Let us know if you have one to add!        |           |            |          |          |
+|      TBA      |           |            |          |          |
+|        TBA    |           |            |          |          |
