@@ -132,21 +132,21 @@
   {
     "objectID": "data-resources.html",
     "href": "data-resources.html",
-    "title": "4  Research Best Practices",
+    "title": "4  Data Resources",
     "section": "",
     "text": "Research Compendia\nA research compendium is a collection of all the files (data, metadata, notes, code, manuscripts, etc.) associated with a research project. Even before the first data point is collected, some thought should be put into how you’ll organize your research compendium. This includes things like:",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Research Best Practices</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Resources</span>"
     ]
   },
   {
     "objectID": "data-resources.html#research-compendia",
     "href": "data-resources.html#research-compendia",
-    "title": "4  Research Best Practices",
+    "title": "4  Data Resources",
     "section": "",
     "text": "Directory structure\nFile naming conventions\nFile formats to use\nWhere the research compendium will be stored (shared drive? Box? your laptop?)\n\n\nDirectory Structure\nA minimal research compendium might look like this:\nproject_name/\n  ├── README.md\n  ├── data/\n  │   ├── metadata.txt\n  │   └── my_raw_data.csv\n  ├── scripts/\n  │   ├── 01-wrangle_data.R\n  │   ├── 02-fit_models.R\n  │   └── 03-plot_results.R\n  └── output/\nThe README.md file should contain at minimum 1) a brief description of the project, 2) who is involved, and 3) instructions on how to reproduce the analysis (e.g. what software is needed to run it, any manual steps that aren’t done by code, etc.). Once the project is complete (e.g. a paper is in review) it should also contain links or citation information for any products resulting from the project.\nThe data/ folder should contain the raw data for the project. This raw data should not be edited by hand. Files in the data/ folder should be considered (or actually made) read-only! This folder might contain separate data_raw/ and data_cleaned/ folders if there is a need to save intermediate data to disk, in which case the files in data_raw/ should be read-only. The data/ folder is also a good place for metadata—information about how to interpret the data and how/when/where it was collected (e.g. what the column names in my_raw_data.csv mean and what units the values are measured in).\n\n\n\n\n\n\nImportantGroup Edit\n\n\n\nYou may wish to discuss as a group what constitutes “raw data”. For example, if you are entering data manually into Excel, at what point should that file be considered “finished” and treated as read-only?\n\n\nThe scripts/ folder is a place to put code to run your analysis. For R code, this folder is often called R/ by convention, and for other languages it might be called something like src/. In this example, I’ve used numbered file names to indicate the order in which scripts are to be run to reproduce the results.\nThe output/ folder is where any figures or summary data or tables created should be saved.\nOther things a research compendium might contain, especially if it is made public (e.g. published as supplementary)\n\nA code of conduct\nA license file and/or citation file indicating how others can use your work\nA docs/ folder for notes or manuscripts\nA .bib file containing reference information for a manuscript\n\n\n\nFile naming conventions\nAs above, numbering scripts that should be run in order is always a good idea—make all the numbers the same number of digits (e.g. 09-, 10-, 11-) so they sort alphabetically in the right order.\nWhen dates are relevant in file names, put them at the start and use the ISO format (YYYY-MM-DD) so that when sorted alphabetically they are in chronological order.\nAvoid spaces and special characters that may not work on all operating systems. Similarly, file names are case sensitive on some systems and case-insensitive on others, so avoid capital letters in file names to keep things simple.\n\n\nFile formats\nPreference non-proprietary and plain-text formats when possible. E.g. use .csv rather than .xlsx when there isn’t a need for multiple sheets or other Excel features.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Research Best Practices</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Resources</span>"
     ]
   }
 ]
