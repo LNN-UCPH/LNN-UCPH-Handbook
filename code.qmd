@@ -7,6 +7,7 @@ Here are some links to resources on good coding practices and project setup.
 ## Resources
 - [Better Code Better Science](https://poldrack.github.io/BetterCodeBetterScience/frontmatter.html) - Full guide on project setup, good coding practices, software testing
 - [The Good Research Code Handbook](https://goodresearch.dev/_static/book.pdf) - This handbook is for grad students, postdocs and PIs who do a lot of programming as part of their research.
+- [The Turing Way: Reproducible Research for Everyone](https://book.the-turing-way.org/reproducible-research/index.html) - Guide on reproducible research practices, including code organization and version control
 - Use [git](https://git-scm.com/) and [Github](https://github.com/) for version control
 - Use [Datalad](https://www.datalad.org/) for version control of datasets. Kinda like git for data.
 - Working remotely using [VScode](https://code.visualstudio.com/docs/remote/ssh-tutorial)
