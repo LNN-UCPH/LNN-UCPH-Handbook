@@ -4,7 +4,7 @@ Welcome!
 
 The Lab for [Neuroimaging and Neuroinformatics (LNN @ UCPH)](https://lnn-ucph.github.io/) focuses on leveraging advanced imaging technologies and computational methods to study the human brain. We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.
 
-(Group picture)
+![Lab pic](pics/labpic.jpg)
 
 Most of us are located at the Department of Computer Science of the University of Copenhagen, but we also have affiliates located at the [Neurobiology Research Unit](www.nru.dk) of the Copenhagen University Hospital (Rigshospitalet). 
 
@@ -39,28 +39,34 @@ For writing papers we use Overleaf. You can get access to Overleaf Premium with 
 ### DIKU resources
 
 General information
+
 - DIKU webpage - [di.ku.dk](https://di.ku.dk/)
 - IMAGE Github - [github.com/diku-dk/IMAGE](https://github.com/diku-dk/IMAGE/)
 
 Communication channels
+
 - IMAGE Section Slack - [image-ucph.slack.com](image-ucph.slack.com)
 - KU mail - [webmail.ku.dk](webmail.ku.dk) 
 - IMAGE Trello - [Papers](https://trello.com/invite/b/614db1f7b565275beda3c43c/ATTIb7a0db01a6ae550d0b02cb2bcc49228a2CD7074B/-)
 - IMAGE Trello - [Funding](https://trello.com/invite/b/614db34924c2241a43609211/ATTId8e7de9db52951d8269ceea24632da2665122E2A/funding-proposals) 
 
 Administrative resources
+
 - DIKU internal [webpage](https://kunet.ku.dk/faculty-and-department/diku/Pages/default.aspx)
 
 ### NRU resources
 
 General information
+
 - NRU webpage - [nru.dk](https://nru.dk/)
 
 Communication channels
+
 - NRU calendar and email - [cal.nru.dk](https://cal.nru.dk/)
 - NRU Discord (Ask for invitation)
 
 Administrative resources
+
 - NRU [staff manual](https://nru.dk/index.php/allcategories?task=download.send&id=9:nru-staff-manual&catid=10)
 - NRU wiki - [wiki.nru.dk](https://wiki.nru.dk/)
 
