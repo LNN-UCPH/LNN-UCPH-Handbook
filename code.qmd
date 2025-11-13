@@ -4,11 +4,13 @@ editor: visual
 ---
 Here are some links to resources on good coding practices and project setup.
 
-- [Better Code Better Science]( https://poldrack.github.io/BetterCodeBetterScience/frontmatter.html) Full guide on project setup, good coding practices, software testing
+- [Better Code Better Science]( https://poldrack.github.io/BetterCodeBetterScience/frontmatter.html) - Full guide on project setup, good coding practices, software testing
 - Use [git](https://git-scm.com/) and [Github](https://github.com/) for version control
-- “git” for large data [Datalad](https://www.datalad.org/) 
+- Use [Datalad](https://www.datalad.org/) for version control of datasets. Kinda like git for data.
 - Working remotely using [VScode](https://code.visualstudio.com/docs/remote/ssh-tutorial)
-- Use linters to highlight semantic and stylistic issues with your code [in Vscode](https://code.visualstudio.com/docs/python/linting)
-- Use formatters to automatically apply stylistic changes [in Vscode](https://code.visualstudio.com/docs/python/formatting) 
-- Use uv for management of python versions, virtual environments, python projects, and packages [uv](https://docs.astral.sh/uv/) 
+- Use [linters](https://code.visualstudio.com/docs/python/linting) to highlight semantic and stylistic issues with your code 
+- Use [formatters](https://code.visualstudio.com/docs/python/formatting) to automatically apply stylistic changes 
+- Use [uv](https://docs.astral.sh/uv/) for management of python versions, virtual environments, python projects, and packages  
+- Use [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) to setup projects based on a template. 
 - Great books: Clean Code (Robert C. Martin), Naming Things (Tom Benner), Design Patterns. Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
+
