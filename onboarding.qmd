@@ -14,15 +14,15 @@ See [Editing This Book](contributing.qmd).
 :::
 
 ## Your first day 
-- [] Check the [lab website](https://lnn-ucph.github.io/)
-- [] Ask to be added to our [GitHub organization](https://github.com/LNN-UCPH)  
-- [] Add yourself to the website, check out this [project page](https://github.com/LNN-UCPH/LNN-UCPH.github.io)
-- [] Read the [Lab Philosophy](lab_philosophy.qmd)
+- [ ] Check the [lab website](https://lnn-ucph.github.io/)
+- [ ] Ask to be added to our [GitHub organization](https://github.com/LNN-UCPH)  
+- [ ] Add yourself to the website, check out this [project page](https://github.com/LNN-UCPH/LNN-UCPH.github.io)
+- [ ] Read the [Lab Philosophy](lab_philosophy.qmd)
 
 ## Meetings
 - Supervision Meetings - ensure to book individual supervision meetings with your supervisors
-- MIA (Medical Imaging Analysis) meetings on Thursdays at 12.15 (@DIKU)
-- NRU data analysis meetings on Tuesdays at 11.00 (@NRU)
+- MIA (Medical Imaging Analysis) meetings on Thursdays at 12.15 (at DIKU)
+- NRU data analysis meetings on Tuesdays at 11.00 (at NRU)
 - Project meetings if you participate in large projects
 - [CS4ALL meetings](https://di.ku.dk/english/diversity-and-inclusion/cs4all/)
 
@@ -38,12 +38,12 @@ For writing papers we use Overleaf. You can get access to Overleaf Premium with 
 
 ## DIKU resources
 ### General information
-- DIKU webpage: [di.ku.dk](https://di.ku.dk/)
-- IMAGE Github: [github.com/diku-dk/IMAGE](https://github.com/diku-dk/IMAGE/)
+- DIKU webpage - [di.ku.dk](https://di.ku.dk/)
+- IMAGE Github - [github.com/diku-dk/IMAGE](https://github.com/diku-dk/IMAGE/)
 
 ### Communication channels
-- IMAGE Section Slack: [image-ucph.slack.com](image-ucph.slack.com)
-- KU mail: [webmail.ku.dk](webmail.ku.dk) 
+- IMAGE Section Slack - [image-ucph.slack.com](image-ucph.slack.com)
+- KU mail - [webmail.ku.dk](webmail.ku.dk) 
 - IMAGE Trello - [Papers](https://trello.com/invite/b/614db1f7b565275beda3c43c/ATTIb7a0db01a6ae550d0b02cb2bcc49228a2CD7074B/-)
 - IMAGE Trello - [Funding](https://trello.com/invite/b/614db34924c2241a43609211/ATTId8e7de9db52951d8269ceea24632da2665122E2A/funding-proposals) 
 
@@ -53,15 +53,15 @@ For writing papers we use Overleaf. You can get access to Overleaf Premium with 
 ## NRU resources
 
 ### General information
-- NRU webpage: [nru.dk](https://nru.dk/)
+- NRU webpage - [nru.dk](https://nru.dk/)
 
 ### Communication channels
-- NRU calendar and email: [cal.nru.dk](https://cal.nru.dk/)
+- NRU calendar and email - [cal.nru.dk](https://cal.nru.dk/)
 - NRU Discord (Ask for invitation)
 
 ### Administrative resources
 - NRU [staff manual](https://nru.dk/index.php/allcategories?task=download.send&id=9:nru-staff-manual&catid=10)
-- NRU wiki: [wiki.nru.dk](https://wiki.nru.dk/)
+- NRU wiki - [wiki.nru.dk](https://wiki.nru.dk/)
 
 
 
