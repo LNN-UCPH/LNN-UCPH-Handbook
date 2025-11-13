@@ -4,9 +4,19 @@
     "href": "index.html",
     "title": "LNN-UCPH Handbook",
     "section": "",
-    "text": "Welcome!\nWelcome to the handbook for the Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH. We focuse on leveraging advanced imaging technologies and computational methods to study the human brain. We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.",
+    "text": "Welcome to the handbook for the Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH!",
     "crumbs": [
-      "Welcome!"
+      "Welcome to the handbook for the Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH!"
+    ]
+  },
+  {
+    "objectID": "index.html#our-research",
+    "href": "index.html#our-research",
+    "title": "LNN-UCPH Handbook",
+    "section": "Our Research",
+    "text": "Our Research\nWe focuse on leveraging advanced imaging technologies and computational methods to study the human brain. We integrate neuroimaging data with neuroinformatics approaches to understand brain structure, function, and connectivity. Our research areas typically include the development and application of machine learning algorithms, image analysis techniques, and data integration methods to advance the field of neuroscience and improve clinical outcomes in neurology and psychiatry. Our work often involves interdisciplinary collaboration, bridging gaps between computational sciences and neuroscience.",
+    "crumbs": [
+      "Welcome to the handbook for the Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH!"
     ]
   },
   {
@@ -14,9 +24,9 @@
     "href": "index.html#lab-philosophy",
     "title": "LNN-UCPH Handbook",
     "section": "Lab Philosophy",
-    "text": "Lab Philosophy\nThis is a good place to put any information about overall lab philosophies. For example, thoughts about open science, collaboration, publishing, and the role of science in the world",
+    "text": "Lab Philosophy\nThis is a good place to put any information about overall lab philosophies. For example, thoughts about open science, collaboration, publishing, and the role of science in the world.",
     "crumbs": [
-      "Welcome!"
+      "Welcome to the handbook for the Lab for Neuroimaging and Neuroinformatics (LNN) @ UCPH!"
     ]
   },
   {
