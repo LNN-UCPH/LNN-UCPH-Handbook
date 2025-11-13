@@ -40,26 +40,6 @@
     ]
   },
   {
-    "objectID": "code-of-conduct.html",
-    "href": "code-of-conduct.html",
-    "title": "1  GROUP_NAME Code of Conduct",
-    "section": "",
-    "text": "University of Arizona Policies\nScience is hard, and the work of making sure science isn’t harder than it needs to be is on all of us. We create our culture, and in the GROUP_NAME, our culture is inclusive.\nWe value the participation of every member of our community and want to ensure an that every lab member and collaborator has a positive, educational experience unhindered by unnecessary challenges caused by non-inclusive behavior. Accordingly, everyone who participates in any GROUP_NAME project is expected to show respect and courtesy to other community members at all times.\nPI_NAME as head of the GROUP_NAME, and all lab members, are dedicated to a harassment and discrimination-free experience for everyone. Discrimination or harassment based on racial or ethnic background, citizenship status, religion (or lack thereof), political affiliation, gender identity/expression, sexual orientation, dis/ability status, appearance or body size will not be tolerated. We do not tolerate harassment or discrimination by and/or of members of our community in any form.\nWe are particularly motivated to support new and/or anxious collaborators, people who are looking to learn and develop their skills, and anyone who has experienced discrimination in the past.\nTo make clear what is expected, we ask all members of the community to conform to the following Code of Conduct.\nUnacceptable behavior includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of discussions, inappropriate physical contact, and unwelcome sexual attention.\nParticipants asked to stop any harassing or discriminatory behavior are expected to comply immediately.\nMembers of the community who violate these rules—no matter how much they have contributed to the GROUP_NAME, or how specialized their skill set—will be approached by PI_NAME. If inappropriate behavior persists after a discussion with PI_NAME, the issue will be escalated according to procedures laid out by the relevant entities in University of Arizona’s Office of Institutional Equity\nTo report an issue please contact PI_NAME. All communication will be treated as confidential. If you feel you cannot contact PI_NAME, contact the Office of Institutional Equity\nAdditionally, The University of Arizona has specific policies related to conduct. See the UA Nondiscrimination and anti-harassment policy.\nAll employees students, and designated campus colleagues are required to take the Preventing Harassment and Discrimination training and follow review, understand, and follow:",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Code of Conduct</span>"
-    ]
-  },
-  {
-    "objectID": "code-of-conduct.html#university-of-arizona-policies",
-    "href": "code-of-conduct.html#university-of-arizona-policies",
-    "title": "1  GROUP_NAME Code of Conduct",
-    "section": "",
-    "text": "The University of Arizona ethics and conduct guidelines: policy.arizona.edu/ethics-and-conduct\nThe University of Arizona Nondiscrimination and anti-harassment policy: equity.arizona.edu/title-ix\n\n\nThe material in this code of conduct is derived from “Bahlai Lab Code of Conduct” by Dr. Christie Bahlai, used under CC BY 4.0.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Code of Conduct</span>"
-    ]
-  },
-  {
     "objectID": "onboarding.html",
     "href": "onboarding.html",
     "title": "2  Onboarding",
@@ -142,11 +122,11 @@
   {
     "objectID": "publishing.html",
     "href": "publishing.html",
-    "title": "5  Publishing",
+    "title": "6  Publishing",
     "section": "",
     "text": "When, Where and how to Publish:",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Publishing</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Publishing</span>"
     ]
   }
 ]
