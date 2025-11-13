@@ -54,7 +54,7 @@
     "href": "onboarding.html#your-first-day",
     "title": "2  Onboarding",
     "section": "",
-    "text": "[] Check the lab website\n[] Ask to be added to our GitHub organization\n\n[] Add yourself to the website, check out this project page\n[] Read the Lab Philosophy",
+    "text": "Check the lab website\nAsk to be added to our GitHub organization\n\nAdd yourself to the website, check out this project page\nRead the Lab Philosophy",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "onboarding.html#meetings",
     "title": "2  Onboarding",
     "section": "Meetings",
-    "text": "Meetings\n\nSupervision Meetings - ensure to book individual supervision meetings with your supervisors\nMIA (Medical Imaging Analysis) meetings on Thursdays at 12.15 ((DIKU?))\nNRU data analysis meetings on Tuesdays at 11.00 ((NRU?))\nProject meetings if you participate in large projects\nCS4ALL meetings",
+    "text": "Meetings\n\nSupervision Meetings - ensure to book individual supervision meetings with your supervisors\nMIA (Medical Imaging Analysis) meetings on Thursdays at 12.15 (at DIKU)\nNRU data analysis meetings on Tuesdays at 11.00 (at NRU)\nProject meetings if you participate in large projects\nCS4ALL meetings",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
     ]
@@ -84,7 +84,7 @@
     "href": "onboarding.html#diku-resources",
     "title": "2  Onboarding",
     "section": "DIKU resources",
-    "text": "DIKU resources\n\nGeneral information\n\nDIKU webpage: di.ku.dk\nIMAGE Github: github.com/diku-dk/IMAGE\n\n\n\nCommunication channels\n\nIMAGE Section Slack: image-ucph.slack.com\nKU mail: webmail.ku.dk\nIMAGE Trello - Papers\nIMAGE Trello - Funding\n\n\n\nAdministrative resources\n\nDIKU internal webpage",
+    "text": "DIKU resources\n\nGeneral information\n\nDIKU webpage - di.ku.dk\nIMAGE Github - github.com/diku-dk/IMAGE\n\n\n\nCommunication channels\n\nIMAGE Section Slack - image-ucph.slack.com\nKU mail - webmail.ku.dk\nIMAGE Trello - Papers\nIMAGE Trello - Funding\n\n\n\nAdministrative resources\n\nDIKU internal webpage",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "onboarding.html#nru-resources",
     "title": "2  Onboarding",
     "section": "NRU resources",
-    "text": "NRU resources\n\nGeneral information\n\nNRU webpage: nru.dk\n\n\n\nCommunication channels\n\nNRU calendar and email: cal.nru.dk\nNRU Discord (Ask for invitation)\n\n\n\nAdministrative resources\n\nNRU staff manual\nNRU wiki: wiki.nru.dk",
+    "text": "NRU resources\n\nGeneral information\n\nNRU webpage - nru.dk\n\n\n\nCommunication channels\n\nNRU calendar and email - cal.nru.dk\nNRU Discord (Ask for invitation)\n\n\n\nAdministrative resources\n\nNRU staff manual\nNRU wiki - wiki.nru.dk",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Onboarding</span>"
     ]
