@@ -1,3 +1,57 @@
 # Publishing
 
-## When, Where and how to Publish:
+## Overview of relevant LNN Conferences:
+
+### Neuroimaging
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+### Computational Medical Imaging
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+### Computer Vision
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+### Machine learning
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+### Health Informatics| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+### Fairness| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+### NLP| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
+
+
+### tmp
+| Conference | Sub. date | Conf. date | Indexed? | Comments |
+|------------|-----------|------------|----------|----------|
+|            |           |            |          |          |
+|            |           |            |          |          |
+|            |           |            |          |          |
