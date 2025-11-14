@@ -10,15 +10,28 @@ The LNN@UCPH is led by two senior researchers, [Assoc. Professor Melanie Ganz-Be
 ## Scientific Conduct
 
 ### Reproducibility
-Enhancing the reproducibility of research is on eof the core values of the LNN@UCPH. We strive to ensure the reproducibility of our research, meaning that we provide all the necessary data and the computer codes to run the analysis we have performed again, re-creating the results (see the [Turing Way Handbook](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/) for more details). You can find resources to improve the reproducibility of your research in this lab handbook under the following sections.
+Enhancing the reproducibility of research is one of the core values of the LNN@UCPH. We strive to ensure the reproducibility of our research, meaning that we provide all the necessary data and the computer code to run the analysis we have performed again, re-creating the results (see the [Turing Way Handbook](https://book.the-turing-way.org/reproducible-research/overview/overview-definitions/) for more details). You can find resources to improve the reproducibility of your research in the lab handbook under the following sections.
 
 ### Research conduct
 All persons involved in research in the LNN@UCPH and at UCPH (regardless of their professional level) must familiarise themselves with and abide by [UCPH’s Code of Conduct for Responsible Research](https://research.ku.dk/integrity/code-of-conduct/). The lab and UCPH takes research misconduct seriously and will not tolerate fabrication, falsification, deletion of data or plagiarism committed willfully, or under gross negligence in planning, performing, or reporting research.
 
 ### Authorship guidelines
+In general, we follow the [University of Copenhagen Code for Authorship](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://praksisudvalget.ku.dk/english/rules_guide/Kodeks_for_forfatterskab_ENG_final.pdf&ved=2ahUKEwjJjYXQyO-QAxUTHRAIHX7dPCwQFnoECBwQAQ&usg=AOvVaw05IF9Vv3LktW1sMiqF5ldt), which closely aligns with the Vancouver (ICMJE) guidelines and requires that all co-authors make genuine contributions to the published work. 
 
-In general, we follow the [University of Copenhagen Code for Authorship](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://praksisudvalget.ku.dk/english/rules_guide/Kodeks_for_forfatterskab_ENG_final.pdf&ved=2ahUKEwjJjYXQyO-QAxUTHRAIHX7dPCwQFnoECBwQAQ&usg=AOvVaw05IF9Vv3LktW1sMiqF5ldt). This closely aligns with the Vancouver guidelines and requires all co-authors to contribute to published work. Additionally, we encourage that conversations about positions in the author list and order should happen early on in the project. As projects develop, and new people get involved, this type of conversation might need to happen more than once. 
-The student or postdoc driving a project should expect to be first author. However, if they hand off the project they may lose the first-authorship unless co-first is appropriate. In egneral, veryone who contributes meaningfully to a paper should be included and as long as they fufill the authorship guidelines.
+In line with the ICMJE recommendations on *Defining the Role of Authors and Contributors*, authorship should be based on the following four criteria:
+
+1. **Substantial contributions** to the conception or design of the work, or to the acquisition, analysis, or interpretation of data; **AND**
+2. **Drafting the work** or revising it critically for important intellectual content; **AND**
+3. **Final approval** of the version to be published; **AND**
+4. **Accountability** for all aspects of the work, ensuring that any questions related to accuracy or integrity are appropriately investigated and resolved.
+
+Importantly, we consider substantial contributions to data acquisition or analysis alone to be sufficient for authorship on the primary project manuscript, provided that criteria 2–4 are also met.
+
+The sharing of data, however, is **not** considered sufficient for authorship; in such cases, appropriate credit should instead be given by citing a data descriptor and/or dataset DOI. Authorship *is* appropriate when the dataset owner provides substantial intellectual input into the research or when required by a data use agreement.
+
+We encourage discussions about author list and order **early in the project** and revisit these conversations as projects evolve or new contributors become involved. The student or postdoc driving a project should generally expect to be first author, but if they hand off the project, they may lose first authorship unless co-first authorship is warranted. 
+
+In general, everyone who contributes meaningfully to a paper should be included as long as they fulfill the authorship guidelines.
 
 ## Lab environment
 
@@ -48,7 +61,7 @@ If you have any facility management issues to report, such as a broken light, pl
 
 ### Reporting other issues
 In general, please always feel free to reach out to the lab leadership with any issues. 
-If you want to report any other issues that relate to offensive behavior and do not want to invvolve lab leadership, then feel free to consult the [University of Copenhagen guidelines](https://kunet.ku.dk/employee-guide/Pages/HR/Offensive-behaviour.aspx). At NRU, follow procedures described in the [NRU staff manual](https://nru.dk/index.php/allcategories?task=download.send&id=9:nru-staff-manual&catid=10) (necessitates login).
+If you want to report any other issues that relate to offensive behavior and do not want to involve lab leadership, then feel free to consult the [University of Copenhagen guidelines](https://kunet.ku.dk/employee-guide/Pages/HR/Offensive-behaviour.aspx). At NRU, follow procedures described in the [NRU staff manual](https://nru.dk/index.php/allcategories?task=download.send&id=9:nru-staff-manual&catid=10) (necessitates login).
 
 
 ## References 
