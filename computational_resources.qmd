@@ -171,3 +171,19 @@ if [ -d "${MNT}" ]; then
     echo "Mount point directory '${MNT}' removed."
 fi
 ```
+
+## EuroHPC
+For projects with open access data use that require advanced compute, we recommend considering to submit an application to the [EuroHPC Development Access Call](https://www.eurohpc-ju.europa.eu/supercomputers/supercomputers-access-calls_en).
+EuroHPC has, at this point, procured 11 supercomputers with gpu and high storage capacity. 
+They offer free access to these computers for a certain amount of compute resources per computer.
+Certain access calls require more information to apply, so read carefully about the difference between them.
+We have had luck submitting applications to the [Development Access Calls](https://www.eurohpc-ju.europa.eu/eurohpc-ju-call-proposals-development-access_en), wherein we are given a 1 year term for compute resources.
+You can find examples of successful applications on our lab Github Repo ['euro-hpc-applications'](https://github.com/LNN-UCPH/euro-hpc-application).
+You may have to ask Martin/Melanie for access to the repo.
+You submit your application on [this website](https://access.eurohpc-ju.europa.eu/).
+
+Links to read more about EuroHPC resources:
+
+1. [Basic overview on supercomputers](https://www.eurohpc-ju.europa.eu/supercomputers/our-supercomputers_en)
+
+2. [Technical guidlines and detailed information on supercomputers](https://github.com/LNN-UCPH/euro-hpc-application/blob/main/Technical_Guidelines-all_20calls-26.05.2025.pdf)
