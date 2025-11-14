@@ -28,7 +28,6 @@ book:
     - lab_philosophy.qmd
     - onboarding.qmd
     - research-best-practices.qmd
-    - data-resources.qmd
     - computational_resources.qmd
     - publishing.qmd
     - funding_resources.qmd
