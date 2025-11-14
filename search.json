@@ -180,6 +180,16 @@
     ]
   },
   {
+    "objectID": "computational_resources.html#eurohpc",
+    "href": "computational_resources.html#eurohpc",
+    "title": "5  Computational Resources",
+    "section": "EuroHPC",
+    "text": "EuroHPC\nFor projects with open access data use that require advanced compute, we recommend considering to submit an application to the EuroHPC Development Access Call. EuroHPC has, at this point, procured 11 supercomputers with gpu and high storage capacity. They offer free access to these computers for a certain amount of compute resources per computer. Certain access calls require more information to apply, so read carefully about the difference between them. We have had luck submitting applications to the Development Access Calls, wherein we are given a 1 year term for compute resources. You can find examples of successful applications on our lab Github Repo ‘euro-hpc-applications’. You may have to ask Martin/Melanie for access to the repo. You submit your application on this website.\nLinks to read more about EuroHPC resources:\n\nBasic overview on supercomputers\nTechnical guidlines and detailed information on supercomputers",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Computational Resources</span>"
+    ]
+  },
+  {
     "objectID": "publishing.html",
     "href": "publishing.html",
     "title": "6  Publishing",
